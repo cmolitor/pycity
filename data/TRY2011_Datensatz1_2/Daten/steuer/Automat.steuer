@@ -1,0 +1,8 @@
+Automat aktiv (J/N)          : J        ! Muss J eingetragen sein
+TRJ-Region (1-15)            : 5        ! Angabe der TRJ-Regionsnummer
+TRJ-Typ (1-6)                : 1        ! Position entsprechend der Datei ..\konstdat\TRJ-Typ.steuer
+Einwohnerzahl (1-9999999)    : 1        ! Angabe der Einwohnerzahl bis max. 9999999; bis zu einer Einwohneranzahl von 499 wird kein Stadteffekt aufgeprägt
+Stadtbereich (0-3)           : 1        ! Position entsprechend der Datei ..\konstdat\Stadtbereich.steuer; 0 wenn kein Stadteffekt und Einwohneranzahl <500
+Höhenlage (1-9999)           : 200      ! Angabe der Höhenlage der zu schaffenden Station
+
+

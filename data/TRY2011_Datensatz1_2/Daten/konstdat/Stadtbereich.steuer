@@ -1,0 +1,6 @@
+# Anzahl der Bereiche [i2]
+3
+# Nr. des Bereiches; Name des Bereiches; Fakktor für UHImax  [i2,2x,a30,f4.2]
+ 1  Stadtrand                     0.50                                              
+ 2  Mittleres Stadtgebiet         0.70
+ 3  Eng bebaute Innenstadt        1.00

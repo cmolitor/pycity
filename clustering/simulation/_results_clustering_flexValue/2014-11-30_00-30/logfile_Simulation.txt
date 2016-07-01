@@ -1,0 +1,3764 @@
+Simulation data:
+
+No. of Bes: 300
+Step Size: 1800
+Starting Horizon: 130
+No. of Horizons: 30
+Criterion: energy
+Solution Pool Gap: 2
+Random-seed: 17
+Cluster Splitting: [12, 15, 20, 30, 40, 60]
+Share of Renewables: 20
+Solution Pool Intensity: 4
+
+
+
+
+Day/Horizon: 130
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 14.08 s ---
+
+		Worst performance cluster: 4	Performance: 0.127344207099 - Med: 0.0650906626543
+		CHPs: 6 - HPs: 11 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 14.31 s ---
+
+		Worst performance cluster: 0	Performance: 0.0930093672709 - Med: 0.0636705480153
+		CHPs: 10 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.065			Compactness: 0.00058	 Diff: 0.082
+		Flex.:		Med Perf: 0.064			Compactness: 0.00022	 Diff: 0.048
+
+		Inc (all):	Med Perf: 2.18 %		Compactness: 61.22 %	 Diff: 41.590 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 340.62 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.51 s ---
+
+		Worst performance cluster: 6	Performance: 0.142017059787 - Med: 0.083227208067
+		CHPs: 6 - HPs: 7 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.78 s ---
+
+		Worst performance cluster: 0	Performance: 0.131107610553 - Med: 0.0814067532621
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.083			Compactness: 0.00047	 Diff: 0.074
+		Flex.:		Med Perf: 0.081			Compactness: 0.00041	 Diff: 0.072
+
+		Inc (all):	Med Perf: 2.19 %		Compactness: 11.44 %	 Diff: 3.667 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 259.34 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.45 s ---
+
+		Worst performance cluster: 4	Performance: 0.287632155672 - Med: 0.127419842765
+		CHPs: 7 - HPs: 2 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.60 s ---
+
+		Worst performance cluster: 0	Performance: 0.197376189886 - Med: 0.102184362894
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.127			Compactness: 0.00231	 Diff: 0.205
+		Flex.:		Med Perf: 0.102			Compactness: 0.00134	 Diff: 0.131
+
+		Inc (all):	Med Perf: 19.80 %		Compactness: 42.02 %	 Diff: 36.206 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 180.91 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.75 s ---
+
+		Worst performance cluster: 26	Performance: 0.367490408398 - Med: 0.210903264338
+		CHPs: 7 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.87 s ---
+
+		Worst performance cluster: 1	Performance: 0.343589302781 - Med: 0.163095621313
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.211			Compactness: 0.00448	 Diff: 0.252
+		Flex.:		Med Perf: 0.163			Compactness: 0.00297	 Diff: 0.220
+
+		Inc (all):	Med Perf: 22.67 %		Compactness: 33.56 %	 Diff: 12.568 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 108.60 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.93 s ---
+
+		Worst performance cluster: 0	Performance: 0.987242924346 - Med: 0.289665881449
+		CHPs: 0 - HPs: 4 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.97 s ---
+
+		Worst performance cluster: 0	Performance: 0.442570137545 - Med: 0.233873083445
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.290			Compactness: 0.02731	 Diff: 0.840
+		Flex.:		Med Perf: 0.234			Compactness: 0.00450	 Diff: 0.319
+
+		Inc (all):	Med Perf: 19.26 %		Compactness: 83.52 %	 Diff: 61.989 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 76.06 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 0	Performance: 0.983187547854 - Med: 0.442313798421
+		CHPs: 1 - HPs: 2 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 7	Performance: 0.830128215305 - Med: 0.350078488307
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.442			Compactness: 0.03268	 Diff: 0.835
+		Flex.:		Med Perf: 0.350			Compactness: 0.01741	 Diff: 0.634
+
+		Inc (all):	Med Perf: 20.85 %		Compactness: 46.73 %	 Diff: 24.063 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 47.13 s ---
+
+		--- Executing this day (day 130): 1046.65 s
+
+
+Day/Horizon: 131
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 14.85 s ---
+
+		Worst performance cluster: 6	Performance: 0.197201311438 - Med: 0.074919509902
+		CHPs: 16 - HPs: 4 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.07 s ---
+
+		Worst performance cluster: 0	Performance: 0.125764735137 - Med: 0.0587665868451
+		CHPs: 8 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.075			Compactness: 0.00140	 Diff: 0.148
+		Flex.:		Med Perf: 0.059			Compactness: 0.00051	 Diff: 0.069
+
+		Inc (all):	Med Perf: 21.56 %		Compactness: 63.60 %	 Diff: 53.399 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 371.04 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.45 s ---
+
+		Worst performance cluster: 10	Performance: 0.134253313676 - Med: 0.0793826287298
+		CHPs: 8 - HPs: 6 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.17 s ---
+
+		Worst performance cluster: 0	Performance: 0.16617146034 - Med: 0.0770256408313
+		CHPs: 7 - HPs: 6 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.079			Compactness: 0.00040	 Diff: 0.074
+		Flex.:		Med Perf: 0.077			Compactness: 0.00065	 Diff: 0.117
+
+		Inc (all):	Med Perf: 2.97 %		Compactness: -61.86 %	 Diff: -56.651 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 279.29 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.56 s ---
+
+		Worst performance cluster: 14	Performance: 0.250411140847 - Med: 0.109294635406
+		CHPs: 6 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.70 s ---
+
+		Worst performance cluster: 1	Performance: 0.283662210933 - Med: 0.110826710125
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.109			Compactness: 0.00136	 Diff: 0.185
+		Flex.:		Med Perf: 0.111			Compactness: 0.00255	 Diff: 0.195
+
+		Inc (all):	Med Perf: -1.40 %		Compactness: -87.16 %	 Diff: -5.415 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 185.24 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.78 s ---
+
+		Worst performance cluster: 23	Performance: 0.390463065164 - Med: 0.197867764571
+		CHPs: 2 - HPs: 6 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.79 s ---
+
+		Worst performance cluster: 2	Performance: 0.378503303345 - Med: 0.179238314276
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.198			Compactness: 0.00503	 Diff: 0.257
+		Flex.:		Med Perf: 0.179			Compactness: 0.00469	 Diff: 0.263
+
+		Inc (all):	Med Perf: 9.42 %		Compactness: 6.81 %	 Diff: -2.174 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 106.99 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.98 s ---
+
+		Worst performance cluster: 24	Performance: 0.884314008139 - Med: 0.238782383042
+		CHPs: 5 - HPs: 2 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.98 s ---
+
+		Worst performance cluster: 7	Performance: 0.713894918662 - Med: 0.225258337166
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.239			Compactness: 0.02551	 Diff: 0.786
+		Flex.:		Med Perf: 0.225			Compactness: 0.01349	 Diff: 0.588
+
+		Inc (all):	Med Perf: 5.66 %		Compactness: 47.12 %	 Diff: 25.223 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 78.61 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 51	Performance: 1.14721567883 - Med: 0.445669329967
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 59	Performance: 1.02825613352 - Med: 0.337453088134
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.446			Compactness: 0.03726	 Diff: 0.945
+		Flex.:		Med Perf: 0.337			Compactness: 0.03180	 Diff: 0.857
+
+		Inc (all):	Med Perf: 24.28 %		Compactness: 14.65 %	 Diff: 9.347 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 47.16 s ---
+
+		--- Executing this day (day 131): 1102.24 s
+
+
+Day/Horizon: 132
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.62 s ---
+
+		Worst performance cluster: 2	Performance: 0.252132444056 - Med: 0.0700827998753
+		CHPs: 10 - HPs: 5 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 17.72 s ---
+
+		Worst performance cluster: 3	Performance: 0.11777012903 - Med: 0.06614429713
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.070			Compactness: 0.00419	 Diff: 0.207
+		Flex.:		Med Perf: 0.066			Compactness: 0.00046	 Diff: 0.077
+
+		Inc (all):	Med Perf: 5.62 %		Compactness: 88.92 %	 Diff: 62.627 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 412.13 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.32 s ---
+
+		Worst performance cluster: 0	Performance: 0.29836060346 - Med: 0.0835683948305
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.43 s ---
+
+		Worst performance cluster: 0	Performance: 0.20587462742 - Med: 0.0766672909294
+		CHPs: 7 - HPs: 6 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.084			Compactness: 0.00500	 Diff: 0.248
+		Flex.:		Med Perf: 0.077			Compactness: 0.00179	 Diff: 0.160
+
+		Inc (all):	Med Perf: 8.26 %		Compactness: 64.27 %	 Diff: 35.263 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 281.24 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.90 s ---
+
+		Worst performance cluster: 2	Performance: 0.299330288495 - Med: 0.108627445329
+		CHPs: 7 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.79 s ---
+
+		Worst performance cluster: 14	Performance: 0.237358487316 - Med: 0.106706050741
+		CHPs: 6 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.109			Compactness: 0.00481	 Diff: 0.239
+		Flex.:		Med Perf: 0.107			Compactness: 0.00174	 Diff: 0.172
+
+		Inc (all):	Med Perf: 1.77 %		Compactness: 63.77 %	 Diff: 28.273 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 193.73 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.84 s ---
+
+		Worst performance cluster: 0	Performance: 0.663787655966 - Med: 0.186242083672
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.88 s ---
+
+		Worst performance cluster: 29	Performance: 0.339802758746 - Med: 0.171533161237
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.186			Compactness: 0.01491	 Diff: 0.558
+		Flex.:		Med Perf: 0.172			Compactness: 0.00311	 Diff: 0.248
+
+		Inc (all):	Med Perf: 7.90 %		Compactness: 79.11 %	 Diff: 55.489 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 111.60 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.97 s ---
+
+		Worst performance cluster: 5	Performance: 0.699079001138 - Med: 0.261621867618
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.03 s ---
+
+		Worst performance cluster: 3	Performance: 0.380839938492 - Med: 0.189650156785
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.262			Compactness: 0.01594	 Diff: 0.586
+		Flex.:		Med Perf: 0.190			Compactness: 0.00495	 Diff: 0.269
+
+		Inc (all):	Med Perf: 27.51 %		Compactness: 68.94 %	 Diff: 54.148 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 80.28 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 13	Performance: 1.04585264 - Med: 0.408293381193
+		CHPs: 1 - HPs: 3 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.44 s ---
+
+		Worst performance cluster: 28	Performance: 0.662066940725 - Med: 0.292559787087
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.408			Compactness: 0.03593	 Diff: 0.897
+		Flex.:		Med Perf: 0.293			Compactness: 0.01155	 Diff: 0.492
+
+		Inc (all):	Med Perf: 28.35 %		Compactness: 67.86 %	 Diff: 45.100 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 50.47 s ---
+
+		--- Executing this day (day 132): 1159.75 s
+
+
+Day/Horizon: 133
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 15.74 s ---
+
+		Worst performance cluster: 4	Performance: 0.108079590376 - Med: 0.0685552390703
+		CHPs: 10 - HPs: 6 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 15.23 s ---
+
+		Worst performance cluster: 0	Performance: 0.094451988401 - Med: 0.0640773252962
+		CHPs: 10 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.069			Compactness: 0.00024	 Diff: 0.062
+		Flex.:		Med Perf: 0.064			Compactness: 0.00011	 Diff: 0.039
+
+		Inc (all):	Med Perf: 6.53 %		Compactness: 53.67 %	 Diff: 36.273 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 371.57 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.43 s ---
+
+		Worst performance cluster: 0	Performance: 0.133768000771 - Med: 0.0826430952039
+		CHPs: 8 - HPs: 11 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.46 s ---
+
+		Worst performance cluster: 0	Performance: 0.114995358136 - Med: 0.0860982127404
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.083			Compactness: 0.00036	 Diff: 0.086
+		Flex.:		Med Perf: 0.086			Compactness: 0.00033	 Diff: 0.067
+
+		Inc (all):	Med Perf: -4.18 %		Compactness: 9.73 %	 Diff: 21.560 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 283.41 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.70 s ---
+
+		Worst performance cluster: 10	Performance: 0.26024304002 - Med: 0.109954556371
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.74 s ---
+
+		Worst performance cluster: 0	Performance: 0.181701033723 - Med: 0.0985782488578
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.110			Compactness: 0.00152	 Diff: 0.182
+		Flex.:		Med Perf: 0.099			Compactness: 0.00067	 Diff: 0.107
+
+		Inc (all):	Med Perf: 10.35 %		Compactness: 55.57 %	 Diff: 41.038 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 188.77 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.84 s ---
+
+		Worst performance cluster: 8	Performance: 0.382820939704 - Med: 0.183631914329
+		CHPs: 5 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.82 s ---
+
+		Worst performance cluster: 6	Performance: 0.293263080161 - Med: 0.164957100624
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.184			Compactness: 0.00355	 Diff: 0.269
+		Flex.:		Med Perf: 0.165			Compactness: 0.00235	 Diff: 0.177
+
+		Inc (all):	Med Perf: 10.17 %		Compactness: 33.88 %	 Diff: 34.257 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 109.71 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.98 s ---
+
+		Worst performance cluster: 36	Performance: 0.613151786529 - Med: 0.257506472276
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.00 s ---
+
+		Worst performance cluster: 13	Performance: 0.604323337293 - Med: 0.213120555641
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.258			Compactness: 0.01292	 Diff: 0.491
+		Flex.:		Med Perf: 0.213			Compactness: 0.01194	 Diff: 0.474
+
+		Inc (all):	Med Perf: 17.24 %		Compactness: 7.59 %	 Diff: 3.494 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 79.32 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 5	Performance: 1.14231665191 - Med: 0.398590252842
+		CHPs: 1 - HPs: 4 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 7	Performance: 1.02702498414 - Med: 0.357300980858
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.399			Compactness: 0.04909	 Diff: 0.966
+		Flex.:		Med Perf: 0.357			Compactness: 0.02990	 Diff: 0.844
+
+		Inc (all):	Med Perf: 10.36 %		Compactness: 39.10 %	 Diff: 12.643 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 47.28 s ---
+
+		--- Executing this day (day 133): 1114.32 s
+
+
+Day/Horizon: 134
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 15.09 s ---
+
+		Worst performance cluster: 4	Performance: 0.170354662301 - Med: 0.0794319492205
+		CHPs: 10 - HPs: 5 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 17.65 s ---
+
+		Worst performance cluster: 11	Performance: 0.104579325769 - Med: 0.0657867966388
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.079			Compactness: 0.00118	 Diff: 0.122
+		Flex.:		Med Perf: 0.066			Compactness: 0.00037	 Diff: 0.049
+
+		Inc (all):	Med Perf: 17.18 %		Compactness: 68.56 %	 Diff: 60.094 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 392.84 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.36 s ---
+
+		Worst performance cluster: 11	Performance: 0.22599920327 - Med: 0.091687492971
+		CHPs: 8 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 10.01 s ---
+
+		Worst performance cluster: 0	Performance: 0.136938812818 - Med: 0.0912909195043
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.092			Compactness: 0.00277	 Diff: 0.174
+		Flex.:		Med Perf: 0.091			Compactness: 0.00039	 Diff: 0.068
+
+		Inc (all):	Med Perf: 0.43 %		Compactness: 85.88 %	 Diff: 61.181 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 290.58 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.94 s ---
+
+		Worst performance cluster: 12	Performance: 0.322451130372 - Med: 0.124124739293
+		CHPs: 7 - HPs: 1 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.93 s ---
+
+		Worst performance cluster: 3	Performance: 0.197156171546 - Med: 0.103253782706
+		CHPs: 6 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.124			Compactness: 0.00269	 Diff: 0.252
+		Flex.:		Med Perf: 0.103			Compactness: 0.00115	 Diff: 0.129
+
+		Inc (all):	Med Perf: 16.81 %		Compactness: 57.16 %	 Diff: 48.642 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 197.33 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.92 s ---
+
+		Worst performance cluster: 22	Performance: 0.484268707828 - Med: 0.200591129638
+		CHPs: 3 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.94 s ---
+
+		Worst performance cluster: 18	Performance: 0.366588458215 - Med: 0.167657442208
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.201			Compactness: 0.00894	 Diff: 0.384
+		Flex.:		Med Perf: 0.168			Compactness: 0.00484	 Diff: 0.272
+
+		Inc (all):	Med Perf: 16.42 %		Compactness: 45.88 %	 Diff: 29.155 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 115.59 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 1.08 s ---
+
+		Worst performance cluster: 25	Performance: 0.713635191518 - Med: 0.252795090541
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.99 s ---
+
+		Worst performance cluster: 33	Performance: 0.448655514711 - Med: 0.221175044373
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.253			Compactness: 0.01538	 Diff: 0.595
+		Flex.:		Med Perf: 0.221			Compactness: 0.00759	 Diff: 0.347
+
+		Inc (all):	Med Perf: 12.51 %		Compactness: 50.61 %	 Diff: 41.788 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 82.77 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 49	Performance: 1.09657409648 - Med: 0.395967045936
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.42 s ---
+
+		Worst performance cluster: 5	Performance: 0.707912600128 - Med: 0.365440390801
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.396			Compactness: 0.03226	 Diff: 0.910
+		Flex.:		Med Perf: 0.365			Compactness: 0.01892	 Diff: 0.543
+
+		Inc (all):	Med Perf: 7.71 %		Compactness: 41.34 %	 Diff: 40.306 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 49.70 s ---
+
+		--- Executing this day (day 134): 1162.00 s
+
+
+Day/Horizon: 135
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 15.04 s ---
+
+		Worst performance cluster: 9	Performance: 0.298278453651 - Med: 0.155422256114
+		CHPs: 8 - HPs: 8 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.23 s ---
+
+		Worst performance cluster: 1	Performance: 0.268606856158 - Med: 0.146697281054
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.155			Compactness: 0.00318	 Diff: 0.192
+		Flex.:		Med Perf: 0.147			Compactness: 0.00229	 Diff: 0.163
+
+		Inc (all):	Med Perf: 5.61 %		Compactness: 28.20 %	 Diff: 15.073 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 375.24 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.12 s ---
+
+		Worst performance cluster: 0	Performance: 0.360256693974 - Med: 0.193896622678
+		CHPs: 9 - HPs: 6 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.16 s ---
+
+		Worst performance cluster: 1	Performance: 0.349328711958 - Med: 0.167604209146
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.194			Compactness: 0.00564	 Diff: 0.260
+		Flex.:		Med Perf: 0.168			Compactness: 0.00423	 Diff: 0.224
+
+		Inc (all):	Med Perf: 13.56 %		Compactness: 24.95 %	 Diff: 13.773 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 274.18 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.62 s ---
+
+		Worst performance cluster: 5	Performance: 0.411444344322 - Med: 0.20781540852
+		CHPs: 5 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.84 s ---
+
+		Worst performance cluster: 1	Performance: 0.419142237009 - Med: 0.179193044059
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.208			Compactness: 0.00723	 Diff: 0.308
+		Flex.:		Med Perf: 0.179			Compactness: 0.00726	 Diff: 0.310
+
+		Inc (all):	Med Perf: 13.77 %		Compactness: -0.40 %	 Diff: -0.797 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 189.18 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.92 s ---
+
+		Worst performance cluster: 21	Performance: 0.663336643033 - Med: 0.27531035482
+		CHPs: 3 - HPs: 2 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.93 s ---
+
+		Worst performance cluster: 11	Performance: 0.49003982066 - Med: 0.221887609323
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.275			Compactness: 0.01321	 Diff: 0.545
+		Flex.:		Med Perf: 0.222			Compactness: 0.00904	 Diff: 0.339
+
+		Inc (all):	Med Perf: 19.40 %		Compactness: 31.58 %	 Diff: 37.798 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 115.32 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.98 s ---
+
+		Worst performance cluster: 5	Performance: 0.859932207818 - Med: 0.32445747023
+		CHPs: 2 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.00 s ---
+
+		Worst performance cluster: 13	Performance: 0.75469368657 - Med: 0.312999575266
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.324			Compactness: 0.03201	 Diff: 0.707
+		Flex.:		Med Perf: 0.313			Compactness: 0.01728	 Diff: 0.612
+
+		Inc (all):	Med Perf: 3.53 %		Compactness: 46.02 %	 Diff: 13.485 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 78.89 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.40 s ---
+
+		Worst performance cluster: 38	Performance: 1.47565140684 - Med: 0.436117980792
+		CHPs: 5 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.42 s ---
+
+		Worst performance cluster: 23	Performance: 0.744010092048 - Med: 0.403076815733
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.436			Compactness: 0.04475	 Diff: 1.222
+		Flex.:		Med Perf: 0.403			Compactness: 0.01400	 Diff: 0.555
+
+		Inc (all):	Med Perf: 7.58 %		Compactness: 68.71 %	 Diff: 54.628 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 49.78 s ---
+
+		--- Executing this day (day 135): 1107.38 s
+
+
+Day/Horizon: 136
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 10.89 s ---
+
+		Worst performance cluster: 3	Performance: 0.559054244791 - Med: 0.404831826241
+		CHPs: 8 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 11.60 s ---
+
+		Worst performance cluster: 1	Performance: 0.676678006889 - Med: 0.38086831509
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.405			Compactness: 0.01937	 Diff: 0.370
+		Flex.:		Med Perf: 0.381			Compactness: 0.01794	 Diff: 0.485
+
+		Inc (all):	Med Perf: 5.92 %		Compactness: 7.36 %	 Diff: -31.082 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 269.78 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 6.62 s ---
+
+		Worst performance cluster: 4	Performance: 0.690160756558 - Med: 0.332236710155
+		CHPs: 7 - HPs: 9 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 6.88 s ---
+
+		Worst performance cluster: 1	Performance: 0.647836828897 - Med: 0.352664774412
+		CHPs: 7 - HPs: 8 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.332			Compactness: 0.02302	 Diff: 0.422
+		Flex.:		Med Perf: 0.353			Compactness: 0.01470	 Diff: 0.438
+
+		Inc (all):	Med Perf: -6.15 %		Compactness: 36.15 %	 Diff: -3.889 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 202.48 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.64 s ---
+
+		Worst performance cluster: 14	Performance: 0.829745892927 - Med: 0.388906381538
+		CHPs: 10 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.69 s ---
+
+		Worst performance cluster: 15	Performance: 0.738609969979 - Med: 0.371582267702
+		CHPs: 6 - HPs: 6 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.389			Compactness: 0.04028	 Diff: 0.699
+		Flex.:		Med Perf: 0.372			Compactness: 0.03192	 Diff: 0.602
+
+		Inc (all):	Med Perf: 4.45 %		Compactness: 20.76 %	 Diff: 13.769 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 146.73 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.49 s ---
+
+		Worst performance cluster: 2	Performance: 0.954990228846 - Med: 0.459401507583
+		CHPs: 4 - HPs: 2 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.49 s ---
+
+		Worst performance cluster: 1	Performance: 0.770733330708 - Med: 0.38952015249
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.459			Compactness: 0.04525	 Diff: 0.765
+		Flex.:		Med Perf: 0.390			Compactness: 0.02977	 Diff: 0.536
+
+		Inc (all):	Med Perf: 15.21 %		Compactness: 34.22 %	 Diff: 29.930 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 89.39 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.84 s ---
+
+		Worst performance cluster: 33	Performance: 1.24732479479 - Med: 0.466146395734
+		CHPs: 4 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.83 s ---
+
+		Worst performance cluster: 24	Performance: 1.02132954327 - Med: 0.412651138872
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.466			Compactness: 0.07365	 Diff: 1.045
+		Flex.:		Med Perf: 0.413			Compactness: 0.04912	 Diff: 0.799
+
+		Inc (all):	Med Perf: 11.48 %		Compactness: 33.31 %	 Diff: 23.563 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 66.98 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.35 s ---
+
+		Worst performance cluster: 8	Performance: 1.32649422192 - Med: 0.538118213861
+		CHPs: 3 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.36 s ---
+
+		Worst performance cluster: 23	Performance: 1.15205979862 - Med: 0.491709733351
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.538			Compactness: 0.07867	 Diff: 1.091
+		Flex.:		Med Perf: 0.492			Compactness: 0.05796	 Diff: 0.981
+
+		Inc (all):	Med Perf: 8.62 %		Compactness: 26.32 %	 Diff: 10.049 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 42.99 s ---
+
+		--- Executing this day (day 136): 840.66 s
+
+
+Day/Horizon: 137
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 13.50 s ---
+
+		Worst performance cluster: 6	Performance: 0.533641558874 - Med: 0.32681659526
+		CHPs: 14 - HPs: 5 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 13.29 s ---
+
+		Worst performance cluster: 5	Performance: 0.536976075202 - Med: 0.265794370193
+		CHPs: 10 - HPs: 10 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.327			Compactness: 0.01840	 Diff: 0.437
+		Flex.:		Med Perf: 0.266			Compactness: 0.01261	 Diff: 0.383
+
+		Inc (all):	Med Perf: 18.67 %		Compactness: 31.50 %	 Diff: 12.308 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 321.51 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 7.74 s ---
+
+		Worst performance cluster: 0	Performance: 0.668418855736 - Med: 0.287909996334
+		CHPs: 11 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 7.57 s ---
+
+		Worst performance cluster: 11	Performance: 0.535761526762 - Med: 0.331287811643
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.288			Compactness: 0.02672	 Diff: 0.560
+		Flex.:		Med Perf: 0.331			Compactness: 0.01663	 Diff: 0.402
+
+		Inc (all):	Med Perf: -15.07 %		Compactness: 37.74 %	 Diff: 28.224 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 229.76 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.06 s ---
+
+		Worst performance cluster: 15	Performance: 0.5529372126 - Med: 0.332692442682
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.13 s ---
+
+		Worst performance cluster: 1	Performance: 0.763313603798 - Med: 0.255874902263
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.333			Compactness: 0.01209	 Diff: 0.358
+		Flex.:		Med Perf: 0.256			Compactness: 0.04415	 Diff: 0.620
+
+		Inc (all):	Med Perf: 23.09 %		Compactness: -265.06 %	 Diff: -73.164 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 163.70 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.63 s ---
+
+		Worst performance cluster: 23	Performance: 0.875167405027 - Med: 0.319203676915
+		CHPs: 8 - HPs: 0 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.68 s ---
+
+		Worst performance cluster: 17	Performance: 0.793398179521 - Med: 0.375470974633
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.319			Compactness: 0.04893	 Diff: 0.686
+		Flex.:		Med Perf: 0.375			Compactness: 0.02937	 Diff: 0.639
+
+		Inc (all):	Med Perf: -17.63 %		Compactness: 39.98 %	 Diff: 6.818 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 99.32 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.89 s ---
+
+		Worst performance cluster: 23	Performance: 0.874917955026 - Med: 0.396092599437
+		CHPs: 5 - HPs: 0 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.88 s ---
+
+		Worst performance cluster: 1	Performance: 0.957055674143 - Med: 0.413028452566
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.396			Compactness: 0.03368	 Diff: 0.707
+		Flex.:		Med Perf: 0.413			Compactness: 0.04491	 Diff: 0.783
+
+		Inc (all):	Med Perf: -4.28 %		Compactness: -33.34 %	 Diff: -10.714 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 70.89 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 53	Performance: 1.87858799675 - Med: 0.519158032031
+		CHPs: 5 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 1	Performance: 1.00308722035 - Med: 0.586061023933
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.519			Compactness: 0.12417	 Diff: 1.601
+		Flex.:		Med Perf: 0.586			Compactness: 0.04342	 Diff: 0.755
+
+		Inc (all):	Med Perf: -12.89 %		Compactness: 65.03 %	 Diff: 52.811 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 44.51 s ---
+
+		--- Executing this day (day 137): 954.06 s
+
+
+Day/Horizon: 138
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 12.52 s ---
+
+		Worst performance cluster: 10	Performance: 0.47149574421 - Med: 0.283072335776
+		CHPs: 12 - HPs: 5 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 13.13 s ---
+
+		Worst performance cluster: 1	Performance: 0.433518308735 - Med: 0.25513720883
+		CHPs: 10 - HPs: 10 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.283			Compactness: 0.01077	 Diff: 0.367
+		Flex.:		Med Perf: 0.255			Compactness: 0.00792	 Diff: 0.318
+
+		Inc (all):	Med Perf: 9.87 %		Compactness: 26.49 %	 Diff: 13.455 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 307.87 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 7.98 s ---
+
+		Worst performance cluster: 6	Performance: 0.57188018819 - Med: 0.242139032274
+		CHPs: 11 - HPs: 4 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.10 s ---
+
+		Worst performance cluster: 6	Performance: 0.509506186948 - Med: 0.247729967534
+		CHPs: 8 - HPs: 8 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.242			Compactness: 0.02256	 Diff: 0.482
+		Flex.:		Med Perf: 0.248			Compactness: 0.01584	 Diff: 0.435
+
+		Inc (all):	Med Perf: -2.31 %		Compactness: 29.77 %	 Diff: 9.836 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 241.20 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.04 s ---
+
+		Worst performance cluster: 14	Performance: 0.607185812084 - Med: 0.274968280467
+		CHPs: 5 - HPs: 3 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.27 s ---
+
+		Worst performance cluster: 1	Performance: 0.580402732092 - Med: 0.27557563437
+		CHPs: 6 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.275			Compactness: 0.02708	 Diff: 0.506
+		Flex.:		Med Perf: 0.276			Compactness: 0.01050	 Diff: 0.449
+
+		Inc (all):	Med Perf: -0.22 %		Compactness: 61.22 %	 Diff: 11.258 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 166.36 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.68 s ---
+
+		Worst performance cluster: 6	Performance: 0.754572175003 - Med: 0.348042382534
+		CHPs: 6 - HPs: 2 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.68 s ---
+
+		Worst performance cluster: 1	Performance: 0.600848707443 - Med: 0.343321022543
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.348			Compactness: 0.02744	 Diff: 0.599
+		Flex.:		Med Perf: 0.343			Compactness: 0.02031	 Diff: 0.444
+
+		Inc (all):	Med Perf: 1.36 %		Compactness: 25.96 %	 Diff: 25.941 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 100.85 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.90 s ---
+
+		Worst performance cluster: 6	Performance: 0.786126023492 - Med: 0.382879310899
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.88 s ---
+
+		Worst performance cluster: 1	Performance: 0.726823925427 - Med: 0.367589845974
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.383			Compactness: 0.03490	 Diff: 0.638
+		Flex.:		Med Perf: 0.368			Compactness: 0.01747	 Diff: 0.586
+
+		Inc (all):	Med Perf: 3.99 %		Compactness: 49.94 %	 Diff: 8.031 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 71.23 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 36	Performance: 1.10049218354 - Med: 0.453587279955
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 20	Performance: 0.855027384096 - Med: 0.445892569495
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.454			Compactness: 0.05561	 Diff: 0.961
+		Flex.:		Med Perf: 0.446			Compactness: 0.03323	 Diff: 0.671
+
+		Inc (all):	Med Perf: 1.70 %		Compactness: 40.24 %	 Diff: 30.159 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 45.48 s ---
+
+		--- Executing this day (day 138): 963.61 s
+
+
+Day/Horizon: 139
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 139)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 17.50 s ---
+
+		Worst performance cluster: 7	Performance: 0.136680813084 - Med: 0.0749348240573
+		CHPs: 4 - HPs: 10 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 17.29 s ---
+
+		Worst performance cluster: 8	Performance: 0.186845530544 - Med: 0.0753642966996
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.075			Compactness: 0.00070	 Diff: 0.079
+		Flex.:		Med Perf: 0.075			Compactness: 0.00208	 Diff: 0.136
+
+		Inc (all):	Med Perf: -0.57 %		Compactness: -198.92 %	 Diff: -70.738 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 417.53 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 139)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.55 s ---
+
+		Worst performance cluster: 0	Performance: 0.287956172318 - Med: 0.0900078044521
+		CHPs: 10 - HPs: 4 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 10.08 s ---
+
+		Worst performance cluster: 5	Performance: 0.22090204519 - Med: 0.0725168534204
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.090			Compactness: 0.00343	 Diff: 0.231
+		Flex.:		Med Perf: 0.073			Compactness: 0.00360	 Diff: 0.171
+
+		Inc (all):	Med Perf: 19.43 %		Compactness: -4.86 %	 Diff: 25.961 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 294.57 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 139)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.64 s ---
+
+		Worst performance cluster: 15	Performance: 0.294933671443 - Med: 0.143383819941
+		CHPs: 7 - HPs: 3 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.96 s ---
+
+		Worst performance cluster: 1	Performance: 0.289865313282 - Med: 0.0960435057067
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.143			Compactness: 0.00386	 Diff: 0.205
+		Flex.:		Med Perf: 0.096			Compactness: 0.00367	 Diff: 0.213
+
+		Inc (all):	Med Perf: 33.02 %		Compactness: 4.98 %	 Diff: -3.764 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 192.05 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 139)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.88 s ---
+
+		Worst performance cluster: 15	Performance: 0.416221844603 - Med: 0.213149536196
+		CHPs: 6 - HPs: 2 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 2.05 s ---
+
+		Worst performance cluster: 1	Performance: 0.491736578251 - Med: 0.149810150959
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.213			Compactness: 0.00670	 Diff: 0.304
+		Flex.:		Med Perf: 0.150			Compactness: 0.00657	 Diff: 0.387
+
+		Inc (all):	Med Perf: 29.72 %		Compactness: 1.96 %	 Diff: -27.294 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 117.88 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 139)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 1.03 s ---
+
+		Worst performance cluster: 36	Performance: 0.995083000946 - Med: 0.257037277262
+		CHPs: 5 - HPs: 0 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.04 s ---
+
+		Worst performance cluster: 9	Performance: 0.48197843386 - Med: 0.21909427186
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.257			Compactness: 0.02594	 Diff: 0.872
+		Flex.:		Med Perf: 0.219			Compactness: 0.01021	 Diff: 0.372
+
+		Inc (all):	Med Perf: 14.76 %		Compactness: 60.62 %	 Diff: 57.326 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 82.87 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 139)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 35	Performance: 0.722476425643 - Med: 0.381510144933
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.44 s ---
+
+		Worst performance cluster: 39	Performance: 1.19262251879 - Med: 0.385243298264
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.382			Compactness: 0.02103	 Diff: 0.563
+		Flex.:		Med Perf: 0.385			Compactness: 0.02567	 Diff: 0.995
+
+		Inc (all):	Med Perf: -0.98 %		Compactness: -22.03 %	 Diff: -76.825 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 51.16 s ---
+
+		--- Executing this day (day 139): 1185.59 s
+
+
+Day/Horizon: 140
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 140)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 13.25 s ---
+
+		Worst performance cluster: 3	Performance: 0.117210406493 - Med: 0.0749646761264
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 14.04 s ---
+
+		Worst performance cluster: 0	Performance: 0.0833048303265 - Med: 0.0663586966927
+		CHPs: 9 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.075			Compactness: 0.00040	 Diff: 0.056
+		Flex.:		Med Perf: 0.066			Compactness: 0.00011	 Diff: 0.030
+
+		Inc (all):	Med Perf: 11.48 %		Compactness: 73.29 %	 Diff: 46.654 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 327.47 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 140)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.35 s ---
+
+		Worst performance cluster: 1	Performance: 0.145504883999 - Med: 0.085563472873
+		CHPs: 10 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.92 s ---
+
+		Worst performance cluster: 0	Performance: 0.150761458664 - Med: 0.0889960229443
+		CHPs: 7 - HPs: 6 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.086			Compactness: 0.00075	 Diff: 0.096
+		Flex.:		Med Perf: 0.089			Compactness: 0.00044	 Diff: 0.093
+
+		Inc (all):	Med Perf: -4.01 %		Compactness: 40.93 %	 Diff: 3.340 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 258.98 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 140)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.27 s ---
+
+		Worst performance cluster: 11	Performance: 0.242121331692 - Med: 0.118515497833
+		CHPs: 9 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.27 s ---
+
+		Worst performance cluster: 0	Performance: 0.231953077411 - Med: 0.115057423752
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.119			Compactness: 0.00165	 Diff: 0.163
+		Flex.:		Med Perf: 0.115			Compactness: 0.00130	 Diff: 0.158
+
+		Inc (all):	Med Perf: 2.92 %		Compactness: 21.44 %	 Diff: 3.089 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 170.81 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 140)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.66 s ---
+
+		Worst performance cluster: 15	Performance: 0.567010614758 - Med: 0.208964441441
+		CHPs: 5 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.73 s ---
+
+		Worst performance cluster: 22	Performance: 0.498136984898 - Med: 0.200482652984
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.209			Compactness: 0.01136	 Diff: 0.457
+		Flex.:		Med Perf: 0.200			Compactness: 0.00721	 Diff: 0.412
+
+		Inc (all):	Med Perf: 4.06 %		Compactness: 36.54 %	 Diff: 9.778 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 101.56 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 140)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.90 s ---
+
+		Worst performance cluster: 31	Performance: 0.827135080794 - Med: 0.248535492361
+		CHPs: 5 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.92 s ---
+
+		Worst performance cluster: 0	Performance: 0.592341237489 - Med: 0.257502114878
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.249			Compactness: 0.02472	 Diff: 0.714
+		Flex.:		Med Perf: 0.258			Compactness: 0.00640	 Diff: 0.449
+
+		Inc (all):	Med Perf: -3.61 %		Compactness: 74.09 %	 Diff: 37.081 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 73.04 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 140)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 33	Performance: 1.42886306265 - Med: 0.396792074823
+		CHPs: 4 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.39 s ---
+
+		Worst performance cluster: 0	Performance: 0.916806392015 - Med: 0.438574852199
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.397			Compactness: 0.06935	 Diff: 1.227
+		Flex.:		Med Perf: 0.439			Compactness: 0.03008	 Diff: 0.774
+
+		Inc (all):	Med Perf: -10.53 %		Compactness: 56.63 %	 Diff: 36.923 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 45.61 s ---
+
+		--- Executing this day (day 140): 1014.35 s
+
+
+Day/Horizon: 141
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 141)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 13.45 s ---
+
+		Worst performance cluster: 10	Performance: 0.419321568772 - Med: 0.0802842827664
+		CHPs: 11 - HPs: 6 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 14.68 s ---
+
+		Worst performance cluster: 6	Performance: 0.121630709661 - Med: 0.0847711392081
+		CHPs: 11 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.080			Compactness: 0.01315	 Diff: 0.356
+		Flex.:		Med Perf: 0.085			Compactness: 0.00022	 Diff: 0.058
+
+		Inc (all):	Med Perf: -5.59 %		Compactness: 98.33 %	 Diff: 83.606 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 337.57 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 141)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.14 s ---
+
+		Worst performance cluster: 14	Performance: 0.239668126304 - Med: 0.118178108111
+		CHPs: 6 - HPs: 9 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.85 s ---
+
+		Worst performance cluster: 14	Performance: 0.186567408075 - Med: 0.0911567208441
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.118			Compactness: 0.00316	 Diff: 0.169
+		Flex.:		Med Perf: 0.091			Compactness: 0.00083	 Diff: 0.116
+
+		Inc (all):	Med Perf: 22.86 %		Compactness: 73.72 %	 Diff: 31.538 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 254.90 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 141)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.07 s ---
+
+		Worst performance cluster: 9	Performance: 0.510832882698 - Med: 0.148968673481
+		CHPs: 5 - HPs: 8 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.19 s ---
+
+		Worst performance cluster: 7	Performance: 0.370458320789 - Med: 0.136764446013
+		CHPs: 7 - HPs: 6 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.149			Compactness: 0.01998	 Diff: 0.424
+		Flex.:		Med Perf: 0.137			Compactness: 0.00577	 Diff: 0.261
+
+		Inc (all):	Med Perf: 8.19 %		Compactness: 71.12 %	 Diff: 38.599 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 165.23 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 141)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.61 s ---
+
+		Worst performance cluster: 19	Performance: 1.00985351372 - Med: 0.28150819448
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.68 s ---
+
+		Worst performance cluster: 7	Performance: 0.673361387365 - Med: 0.236063424455
+		CHPs: 5 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.282			Compactness: 0.07139	 Diff: 0.866
+		Flex.:		Med Perf: 0.236			Compactness: 0.01095	 Diff: 0.525
+
+		Inc (all):	Med Perf: 16.14 %		Compactness: 84.66 %	 Diff: 39.378 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 98.67 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 141)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.87 s ---
+
+		Worst performance cluster: 29	Performance: 1.90440015575 - Med: 0.354184975977
+		CHPs: 3 - HPs: 4 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.88 s ---
+
+		Worst performance cluster: 33	Performance: 0.972440956374 - Med: 0.32964270835
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.354			Compactness: 0.13600	 Diff: 1.753
+		Flex.:		Med Perf: 0.330			Compactness: 0.02774	 Diff: 0.774
+
+		Inc (all):	Med Perf: 6.93 %		Compactness: 79.60 %	 Diff: 55.829 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 70.30 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 141)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 49	Performance: 2.94390439656 - Med: 0.515329007775
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.39 s ---
+
+		Worst performance cluster: 7	Performance: 1.60509371296 - Med: 0.534223375584
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.515			Compactness: 0.31610	 Diff: 2.742
+		Flex.:		Med Perf: 0.534			Compactness: 0.06691	 Diff: 1.343
+
+		Inc (all):	Med Perf: -3.67 %		Compactness: 78.83 %	 Diff: 51.013 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 46.18 s ---
+
+		--- Executing this day (day 141): 1009.64 s
+
+
+Day/Horizon: 142
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 142)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 14.23 s ---
+
+		Worst performance cluster: 9	Performance: 0.144490102 - Med: 0.068812439215
+		CHPs: 11 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 14.10 s ---
+
+		Worst performance cluster: 0	Performance: 0.140146911252 - Med: 0.0673706578652
+		CHPs: 8 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.069			Compactness: 0.00063	 Diff: 0.087
+		Flex.:		Med Perf: 0.067			Compactness: 0.00057	 Diff: 0.092
+
+		Inc (all):	Med Perf: 2.10 %		Compactness: 10.24 %	 Diff: -5.570 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 339.93 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 142)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.27 s ---
+
+		Worst performance cluster: 6	Performance: 0.15106811613 - Med: 0.0939686815257
+		CHPs: 9 - HPs: 2 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.33 s ---
+
+		Worst performance cluster: 0	Performance: 0.152021068874 - Med: 0.0808173585228
+		CHPs: 7 - HPs: 6 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.094			Compactness: 0.00057	 Diff: 0.085
+		Flex.:		Med Perf: 0.081			Compactness: 0.00069	 Diff: 0.090
+
+		Inc (all):	Med Perf: 14.00 %		Compactness: -22.91 %	 Diff: -5.744 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 249.13 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 142)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.37 s ---
+
+		Worst performance cluster: 12	Performance: 0.238701310451 - Med: 0.132489472916
+		CHPs: 8 - HPs: 3 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.45 s ---
+
+		Worst performance cluster: 0	Performance: 0.19788886117 - Med: 0.110104147194
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.132			Compactness: 0.00173	 Diff: 0.148
+		Flex.:		Med Perf: 0.110			Compactness: 0.00072	 Diff: 0.122
+
+		Inc (all):	Med Perf: 16.90 %		Compactness: 58.48 %	 Diff: 17.481 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 176.44 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 142)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.70 s ---
+
+		Worst performance cluster: 23	Performance: 0.507984884062 - Med: 0.222321335252
+		CHPs: 8 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.81 s ---
+
+		Worst performance cluster: 17	Performance: 0.468756460202 - Med: 0.196796033381
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.222			Compactness: 0.01060	 Diff: 0.389
+		Flex.:		Med Perf: 0.197			Compactness: 0.00632	 Diff: 0.360
+
+		Inc (all):	Med Perf: 11.48 %		Compactness: 40.37 %	 Diff: 7.459 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 105.57 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 142)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.89 s ---
+
+		Worst performance cluster: 24	Performance: 1.17742020576 - Med: 0.3098301981
+		CHPs: 6 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.94 s ---
+
+		Worst performance cluster: 2	Performance: 0.607117119546 - Med: 0.295832483486
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.310			Compactness: 0.07108	 Diff: 1.061
+		Flex.:		Med Perf: 0.296			Compactness: 0.00972	 Diff: 0.456
+
+		Inc (all):	Med Perf: 4.52 %		Compactness: 86.32 %	 Diff: 57.012 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 72.96 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 142)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 23	Performance: 1.55149590978 - Med: 0.473438764542
+		CHPs: 5 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 2	Performance: 0.927034026418 - Med: 0.425122740489
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.473			Compactness: 0.09930	 Diff: 1.442
+		Flex.:		Med Perf: 0.425			Compactness: 0.02443	 Diff: 0.689
+
+		Inc (all):	Med Perf: 10.21 %		Compactness: 75.40 %	 Diff: 52.213 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 45.34 s ---
+
+		--- Executing this day (day 142): 1027.28 s
+
+
+Day/Horizon: 143
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 143)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 11.80 s ---
+
+		Worst performance cluster: 3	Performance: 0.696528660489 - Med: 0.309977020606
+		CHPs: 12 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 11.06 s ---
+
+		Worst performance cluster: 10	Performance: 0.539506343359 - Med: 0.342998963869
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.310			Compactness: 0.02035	 Diff: 0.517
+		Flex.:		Med Perf: 0.343			Compactness: 0.00777	 Diff: 0.331
+
+		Inc (all):	Med Perf: -10.65 %		Compactness: 61.83 %	 Diff: 35.980 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 274.34 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 143)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 7.10 s ---
+
+		Worst performance cluster: 5	Performance: 0.699826588591 - Med: 0.375832158488
+		CHPs: 9 - HPs: 4 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 6.83 s ---
+
+		Worst performance cluster: 6	Performance: 0.652000563778 - Med: 0.337729994636
+		CHPs: 9 - HPs: 8 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.376			Compactness: 0.01970	 Diff: 0.539
+		Flex.:		Med Perf: 0.338			Compactness: 0.01265	 Diff: 0.432
+
+		Inc (all):	Med Perf: 10.14 %		Compactness: 35.81 %	 Diff: 19.711 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 208.87 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 143)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.80 s ---
+
+		Worst performance cluster: 15	Performance: 0.766036006597 - Med: 0.349508748514
+		CHPs: 7 - HPs: 3 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.94 s ---
+
+		Worst performance cluster: 11	Performance: 0.719198370803 - Med: 0.350216079537
+		CHPs: 7 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.350			Compactness: 0.02324	 Diff: 0.545
+		Flex.:		Med Perf: 0.350			Compactness: 0.01633	 Diff: 0.509
+
+		Inc (all):	Med Perf: -0.20 %		Compactness: 29.72 %	 Diff: 6.550 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 154.80 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 143)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.54 s ---
+
+		Worst performance cluster: 20	Performance: 1.14014331652 - Med: 0.392962800773
+		CHPs: 5 - HPs: 2 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.50 s ---
+
+		Worst performance cluster: 2	Performance: 0.767217595894 - Med: 0.41447179256
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.393			Compactness: 0.05485	 Diff: 0.989
+		Flex.:		Med Perf: 0.414			Compactness: 0.01853	 Diff: 0.546
+
+		Inc (all):	Med Perf: -5.47 %		Compactness: 66.21 %	 Diff: 44.813 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 91.15 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 143)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.86 s ---
+
+		Worst performance cluster: 33	Performance: 1.0599623209 - Med: 0.420721457769
+		CHPs: 1 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.87 s ---
+
+		Worst performance cluster: 35	Performance: 0.865981989507 - Med: 0.445573957938
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.421			Compactness: 0.04318	 Diff: 0.804
+		Flex.:		Med Perf: 0.446			Compactness: 0.03351	 Diff: 0.639
+
+		Inc (all):	Med Perf: -5.91 %		Compactness: 22.39 %	 Diff: 20.539 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 69.51 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 143)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 20	Performance: 1.68857367645 - Med: 0.51355142934
+		CHPs: 3 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 18	Performance: 0.917711430776 - Med: 0.554169198372
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.514			Compactness: 0.09660	 Diff: 1.401
+		Flex.:		Med Perf: 0.554			Compactness: 0.02433	 Diff: 0.702
+
+		Inc (all):	Med Perf: -7.91 %		Compactness: 74.81 %	 Diff: 49.855 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 44.52 s ---
+
+		--- Executing this day (day 143): 865.67 s
+
+
+Day/Horizon: 144
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 144)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 10.20 s ---
+
+		Worst performance cluster: 3	Performance: 0.837744288406 - Med: 0.600576554334
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 10.75 s ---
+
+		Worst performance cluster: 8	Performance: 0.77991010539 - Med: 0.597504319719
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.601			Compactness: 0.02893	 Diff: 0.616
+		Flex.:		Med Perf: 0.598			Compactness: 0.01467	 Diff: 0.477
+
+		Inc (all):	Med Perf: 0.51 %		Compactness: 49.29 %	 Diff: 22.552 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 251.39 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 144)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 6.23 s ---
+
+		Worst performance cluster: 9	Performance: 0.956314145091 - Med: 0.556686303976
+		CHPs: 12 - HPs: 6 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 6.73 s ---
+
+		Worst performance cluster: 1	Performance: 0.901651838887 - Med: 0.539769588281
+		CHPs: 7 - HPs: 8 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.557			Compactness: 0.02765	 Diff: 0.698
+		Flex.:		Med Perf: 0.540			Compactness: 0.03455	 Diff: 0.601
+
+		Inc (all):	Med Perf: 3.04 %		Compactness: -24.95 %	 Diff: 13.900 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 194.28 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 144)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.43 s ---
+
+		Worst performance cluster: 13	Performance: 1.07873735569 - Med: 0.634364100986
+		CHPs: 5 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.47 s ---
+
+		Worst performance cluster: 5	Performance: 0.918047599893 - Med: 0.546126963105
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.634			Compactness: 0.04972	 Diff: 0.835
+		Flex.:		Med Perf: 0.546			Compactness: 0.03005	 Diff: 0.608
+
+		Inc (all):	Med Perf: 13.91 %		Compactness: 39.56 %	 Diff: 27.191 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 138.15 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 144)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.41 s ---
+
+		Worst performance cluster: 23	Performance: 1.18148222512 - Med: 0.587189257149
+		CHPs: 5 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.45 s ---
+
+		Worst performance cluster: 6	Performance: 1.17823352671 - Med: 0.589914961738
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.587			Compactness: 0.05513	 Diff: 0.909
+		Flex.:		Med Perf: 0.590			Compactness: 0.04841	 Diff: 0.889
+
+		Inc (all):	Med Perf: -0.46 %		Compactness: 12.20 %	 Diff: 2.209 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 85.59 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 144)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.76 s ---
+
+		Worst performance cluster: 22	Performance: 1.2667357469 - Med: 0.676412406239
+		CHPs: 5 - HPs: 0 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.82 s ---
+
+		Worst performance cluster: 24	Performance: 1.20283526196 - Med: 0.621164882778
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.676			Compactness: 0.08180	 Diff: 0.994
+		Flex.:		Med Perf: 0.621			Compactness: 0.06788	 Diff: 0.995
+
+		Inc (all):	Med Perf: 8.17 %		Compactness: 17.02 %	 Diff: -0.033 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 63.49 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 144)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.33 s ---
+
+		Worst performance cluster: 46	Performance: 1.45793276944 - Med: 0.733063559488
+		CHPs: 3 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.35 s ---
+
+		Worst performance cluster: 11	Performance: 1.21248038868 - Med: 0.694918364036
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.733			Compactness: 0.08359	 Diff: 1.169
+		Flex.:		Med Perf: 0.695			Compactness: 0.07518	 Diff: 0.973
+
+		Inc (all):	Med Perf: 5.20 %		Compactness: 10.06 %	 Diff: 16.745 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 40.97 s ---
+
+		--- Executing this day (day 144): 796.21 s
+
+
+Day/Horizon: 145
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 145)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 15.08 s ---
+
+		Worst performance cluster: 3	Performance: 0.398093668475 - Med: 0.115898023001
+		CHPs: 7 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.19 s ---
+
+		Worst performance cluster: 8	Performance: 0.294880597877 - Med: 0.147205416493
+		CHPs: 10 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.116			Compactness: 0.01444	 Diff: 0.341
+		Flex.:		Med Perf: 0.147			Compactness: 0.00479	 Diff: 0.242
+
+		Inc (all):	Med Perf: -27.01 %		Compactness: 66.84 %	 Diff: 29.144 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 375.19 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 145)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.36 s ---
+
+		Worst performance cluster: 13	Performance: 0.404584687451 - Med: 0.133031881569
+		CHPs: 8 - HPs: 6 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.67 s ---
+
+		Worst performance cluster: 1	Performance: 0.320758712947 - Med: 0.13907898621
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.133			Compactness: 0.01036	 Diff: 0.306
+		Flex.:		Med Perf: 0.139			Compactness: 0.00556	 Diff: 0.260
+
+		Inc (all):	Med Perf: -4.55 %		Compactness: 46.36 %	 Diff: 15.129 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 285.37 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 145)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.71 s ---
+
+		Worst performance cluster: 3	Performance: 0.483183396782 - Med: 0.20289672387
+		CHPs: 5 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.82 s ---
+
+		Worst performance cluster: 0	Performance: 0.340234941588 - Med: 0.172218435035
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.203			Compactness: 0.01436	 Diff: 0.413
+		Flex.:		Med Perf: 0.172			Compactness: 0.00346	 Diff: 0.243
+
+		Inc (all):	Med Perf: 15.12 %		Compactness: 75.92 %	 Diff: 41.103 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 190.56 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 145)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.84 s ---
+
+		Worst performance cluster: 3	Performance: 0.660687532196 - Med: 0.270628141657
+		CHPs: 4 - HPs: 2 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.82 s ---
+
+		Worst performance cluster: 25	Performance: 0.469392737578 - Med: 0.208269451241
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.271			Compactness: 0.01327	 Diff: 0.561
+		Flex.:		Med Perf: 0.208			Compactness: 0.00822	 Diff: 0.362
+
+		Inc (all):	Med Perf: 23.04 %		Compactness: 38.10 %	 Diff: 35.486 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 109.81 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 145)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.98 s ---
+
+		Worst performance cluster: 30	Performance: 0.788230075503 - Med: 0.309567267965
+		CHPs: 2 - HPs: 2 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.00 s ---
+
+		Worst performance cluster: 4	Performance: 0.559021723371 - Med: 0.26928265225
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.310			Compactness: 0.02413	 Diff: 0.702
+		Flex.:		Med Perf: 0.269			Compactness: 0.01157	 Diff: 0.423
+
+		Inc (all):	Med Perf: 13.01 %		Compactness: 52.03 %	 Diff: 39.662 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 79.40 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 145)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.40 s ---
+
+		Worst performance cluster: 3	Performance: 0.981001997154 - Med: 0.394767994941
+		CHPs: 2 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.43 s ---
+
+		Worst performance cluster: 10	Performance: 0.729727370378 - Med: 0.3613098249
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.395			Compactness: 0.03966	 Diff: 0.852
+		Flex.:		Med Perf: 0.361			Compactness: 0.01654	 Diff: 0.618
+
+		Inc (all):	Med Perf: 8.48 %		Compactness: 58.30 %	 Diff: 27.467 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 50.20 s ---
+
+		--- Executing this day (day 145): 1118.09 s
+
+
+Day/Horizon: 146
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 146)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.19 s ---
+
+		Worst performance cluster: 11	Performance: 0.114166417409 - Med: 0.0707888587401
+		CHPs: 12 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 15.55 s ---
+
+		Worst performance cluster: 3	Performance: 0.0913717927634 - Med: 0.0622543880726
+		CHPs: 10 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.071			Compactness: 0.00035	 Diff: 0.063
+		Flex.:		Med Perf: 0.062			Compactness: 0.00017	 Diff: 0.056
+
+		Inc (all):	Med Perf: 12.06 %		Compactness: 50.54 %	 Diff: 12.055 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 380.87 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 146)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.40 s ---
+
+		Worst performance cluster: 8	Performance: 0.167794355949 - Med: 0.080632871972
+		CHPs: 8 - HPs: 6 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.50 s ---
+
+		Worst performance cluster: 3	Performance: 0.185627800155 - Med: 0.0677665971062
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.081			Compactness: 0.00114	 Diff: 0.119
+		Flex.:		Med Perf: 0.068			Compactness: 0.00152	 Diff: 0.135
+
+		Inc (all):	Med Perf: 15.96 %		Compactness: -34.03 %	 Diff: -13.858 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 283.42 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 146)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.60 s ---
+
+		Worst performance cluster: 0	Performance: 0.326637624845 - Med: 0.103682962227
+		CHPs: 7 - HPs: 1 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.83 s ---
+
+		Worst performance cluster: 3	Performance: 0.220847614088 - Med: 0.0896375361114
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.104			Compactness: 0.00392	 Diff: 0.254
+		Flex.:		Med Perf: 0.090			Compactness: 0.00153	 Diff: 0.156
+
+		Inc (all):	Med Perf: 13.55 %		Compactness: 60.98 %	 Diff: 38.450 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 188.44 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 146)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.81 s ---
+
+		Worst performance cluster: 23	Performance: 0.667555866806 - Med: 0.152097196788
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.92 s ---
+
+		Worst performance cluster: 3	Performance: 0.357183976537 - Med: 0.144284246899
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.152			Compactness: 0.01226	 Diff: 0.563
+		Flex.:		Med Perf: 0.144			Compactness: 0.00256	 Diff: 0.266
+
+		Inc (all):	Med Perf: 5.14 %		Compactness: 79.15 %	 Diff: 52.721 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 111.90 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 146)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.98 s ---
+
+		Worst performance cluster: 21	Performance: 0.632067729635 - Med: 0.211491623485
+		CHPs: 4 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.02 s ---
+
+		Worst performance cluster: 9	Performance: 0.485052086217 - Med: 0.202314937813
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.211			Compactness: 0.01465	 Diff: 0.507
+		Flex.:		Med Perf: 0.202			Compactness: 0.00860	 Diff: 0.359
+
+		Inc (all):	Med Perf: 4.34 %		Compactness: 41.27 %	 Diff: 29.233 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 80.23 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 146)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.39 s ---
+
+		Worst performance cluster: 23	Performance: 1.20177508672 - Med: 0.369813473501
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.40 s ---
+
+		Worst performance cluster: 10	Performance: 0.914916985101 - Med: 0.307078126263
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.370			Compactness: 0.03006	 Diff: 1.014
+		Flex.:		Med Perf: 0.307			Compactness: 0.02715	 Diff: 0.790
+
+		Inc (all):	Med Perf: 16.96 %		Compactness: 9.67 %	 Diff: 22.085 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 47.85 s ---
+
+		--- Executing this day (day 146): 1123.13 s
+
+
+Day/Horizon: 147
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 147)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 13.75 s ---
+
+		Worst performance cluster: 3	Performance: 0.0978499092041 - Med: 0.0739249232475
+		CHPs: 6 - HPs: 7 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 13.75 s ---
+
+		Worst performance cluster: 7	Performance: 0.114401457973 - Med: 0.061051025758
+		CHPs: 10 - HPs: 10 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.074			Compactness: 0.00036	 Diff: 0.061
+		Flex.:		Med Perf: 0.061			Compactness: 0.00036	 Diff: 0.066
+
+		Inc (all):	Med Perf: 17.41 %		Compactness: -0.80 %	 Diff: -8.385 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 330.02 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 147)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.40 s ---
+
+		Worst performance cluster: 7	Performance: 0.212974933721 - Med: 0.0870160729883
+		CHPs: 9 - HPs: 4 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.42 s ---
+
+		Worst performance cluster: 6	Performance: 0.124057165555 - Med: 0.0878976924208
+		CHPs: 9 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.087			Compactness: 0.00132	 Diff: 0.148
+		Flex.:		Med Perf: 0.088			Compactness: 0.00030	 Diff: 0.064
+
+		Inc (all):	Med Perf: -1.01 %		Compactness: 77.59 %	 Diff: 56.684 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 252.34 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 147)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.15 s ---
+
+		Worst performance cluster: 3	Performance: 0.529340090219 - Med: 0.117306101947
+		CHPs: 7 - HPs: 4 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.33 s ---
+
+		Worst performance cluster: 1	Performance: 0.163792647086 - Med: 0.105110506008
+		CHPs: 6 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.117			Compactness: 0.01007	 Diff: 0.457
+		Flex.:		Med Perf: 0.105			Compactness: 0.00034	 Diff: 0.089
+
+		Inc (all):	Med Perf: 10.40 %		Compactness: 96.65 %	 Diff: 80.634 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 169.49 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 147)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.68 s ---
+
+		Worst performance cluster: 23	Performance: 0.568557656896 - Med: 0.179586608962
+		CHPs: 5 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.66 s ---
+
+		Worst performance cluster: 13	Performance: 0.723242321187 - Med: 0.174724937147
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.180			Compactness: 0.01269	 Diff: 0.479
+		Flex.:		Med Perf: 0.175			Compactness: 0.01166	 Diff: 0.644
+
+		Inc (all):	Med Perf: 2.71 %		Compactness: 8.06 %	 Diff: -34.496 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 100.04 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 147)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.88 s ---
+
+		Worst performance cluster: 3	Performance: 0.838592312066 - Med: 0.247025106367
+		CHPs: 4 - HPs: 2 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.91 s ---
+
+		Worst performance cluster: 33	Performance: 0.723159775612 - Med: 0.251918288944
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.247			Compactness: 0.02531	 Diff: 0.705
+		Flex.:		Med Perf: 0.252			Compactness: 0.01602	 Diff: 0.612
+
+		Inc (all):	Med Perf: -1.98 %		Compactness: 36.72 %	 Diff: 13.183 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 71.43 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 147)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 23	Performance: 1.31550429556 - Med: 0.4575152065
+		CHPs: 3 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 9	Performance: 1.30497657314 - Med: 0.402592599198
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.458			Compactness: 0.05280	 Diff: 1.198
+		Flex.:		Med Perf: 0.403			Compactness: 0.06024	 Diff: 1.165
+
+		Inc (all):	Med Perf: 12.00 %		Compactness: -14.09 %	 Diff: 2.787 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 45.33 s ---
+
+		--- Executing this day (day 147): 1005.62 s
+
+
+Day/Horizon: 148
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 148)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 13.48 s ---
+
+		Worst performance cluster: 6	Performance: 0.266520504861 - Med: 0.0776005611926
+		CHPs: 9 - HPs: 10 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 13.75 s ---
+
+		Worst performance cluster: 7	Performance: 0.133155162374 - Med: 0.0812581526541
+		CHPs: 11 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.078			Compactness: 0.00336	 Diff: 0.201
+		Flex.:		Med Perf: 0.081			Compactness: 0.00039	 Diff: 0.072
+
+		Inc (all):	Med Perf: -4.71 %		Compactness: 88.30 %	 Diff: 64.262 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 326.72 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 148)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.27 s ---
+
+		Worst performance cluster: 12	Performance: 0.375747604821 - Med: 0.110073384797
+		CHPs: 9 - HPs: 9 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.02 s ---
+
+		Worst performance cluster: 14	Performance: 0.237845519041 - Med: 0.106170526667
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.110			Compactness: 0.00559	 Diff: 0.292
+		Flex.:		Med Perf: 0.106			Compactness: 0.00276	 Diff: 0.167
+
+		Inc (all):	Med Perf: 3.55 %		Compactness: 50.66 %	 Diff: 42.944 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 244.44 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 148)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.79 s ---
+
+		Worst performance cluster: 2	Performance: 0.535763837702 - Med: 0.131580866587
+		CHPs: 8 - HPs: 6 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.15 s ---
+
+		Worst performance cluster: 0	Performance: 0.318155365108 - Med: 0.137201705677
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.132			Compactness: 0.02310	 Diff: 0.447
+		Flex.:		Med Perf: 0.137			Compactness: 0.00261	 Diff: 0.220
+
+		Inc (all):	Med Perf: -4.27 %		Compactness: 88.69 %	 Diff: 50.663 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 158.87 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 148)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.59 s ---
+
+		Worst performance cluster: 12	Performance: 0.872257294884 - Med: 0.238545432164
+		CHPs: 6 - HPs: 4 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.67 s ---
+
+		Worst performance cluster: 0	Performance: 0.606468294663 - Med: 0.218719704078
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.239			Compactness: 0.03403	 Diff: 0.739
+		Flex.:		Med Perf: 0.219			Compactness: 0.01184	 Diff: 0.492
+
+		Inc (all):	Med Perf: 8.31 %		Compactness: 65.20 %	 Diff: 33.479 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 97.55 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 148)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.85 s ---
+
+		Worst performance cluster: 27	Performance: 1.1972471051 - Med: 0.368671281916
+		CHPs: 1 - HPs: 2 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.87 s ---
+
+		Worst performance cluster: 15	Performance: 1.15193035043 - Med: 0.326013563517
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.369			Compactness: 0.08534	 Diff: 1.044
+		Flex.:		Med Perf: 0.326			Compactness: 0.06159	 Diff: 0.995
+
+		Inc (all):	Med Perf: 11.57 %		Compactness: 27.83 %	 Diff: 4.743 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 68.82 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 148)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 42	Performance: 1.5053008617 - Med: 0.532975823228
+		CHPs: 3 - HPs: 2 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.38 s ---
+
+		Worst performance cluster: 10	Performance: 1.78608852564 - Med: 0.533509428621
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.533			Compactness: 0.09503	 Diff: 1.307
+		Flex.:		Med Perf: 0.534			Compactness: 0.08183	 Diff: 1.564
+
+		Inc (all):	Med Perf: -0.10 %		Compactness: 13.89 %	 Diff: -19.621 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 45.17 s ---
+
+		--- Executing this day (day 148): 979.43 s
+
+
+Day/Horizon: 149
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 149)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.47 s ---
+
+		Worst performance cluster: 7	Performance: 0.0896622852531 - Med: 0.0752701253944
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.47 s ---
+
+		Worst performance cluster: 0	Performance: 0.0920347331497 - Med: 0.0778990677796
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.075			Compactness: 0.00006	 Diff: 0.028
+		Flex.:		Med Perf: 0.078			Compactness: 0.00015	 Diff: 0.036
+
+		Inc (all):	Med Perf: -3.49 %		Compactness: -163.30 %	 Diff: -25.868 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 395.34 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 149)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.46 s ---
+
+		Worst performance cluster: 13	Performance: 0.117580290418 - Med: 0.0845519294632
+		CHPs: 9 - HPs: 7 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.85 s ---
+
+		Worst performance cluster: 0	Performance: 0.12946791117 - Med: 0.090321242256
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.085			Compactness: 0.00037	 Diff: 0.060
+		Flex.:		Med Perf: 0.090			Compactness: 0.00036	 Diff: 0.075
+
+		Inc (all):	Med Perf: -6.82 %		Compactness: 1.24 %	 Diff: -25.083 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 289.69 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 149)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.84 s ---
+
+		Worst performance cluster: 2	Performance: 0.230906469595 - Med: 0.126488931596
+		CHPs: 6 - HPs: 5 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.87 s ---
+
+		Worst performance cluster: 0	Performance: 0.309902609626 - Med: 0.106597039442
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.126			Compactness: 0.00131	 Diff: 0.138
+		Flex.:		Med Perf: 0.107			Compactness: 0.00313	 Diff: 0.231
+
+		Inc (all):	Med Perf: 15.73 %		Compactness: -139.60 %	 Diff: -67.510 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 194.28 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 149)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.77 s ---
+
+		Worst performance cluster: 24	Performance: 0.56378067613 - Med: 0.192606284093
+		CHPs: 2 - HPs: 6 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.83 s ---
+
+		Worst performance cluster: 17	Performance: 0.716726086987 - Med: 0.180260578597
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.193			Compactness: 0.00953	 Diff: 0.438
+		Flex.:		Med Perf: 0.180			Compactness: 0.01195	 Diff: 0.601
+
+		Inc (all):	Med Perf: 6.41 %		Compactness: -25.39 %	 Diff: -37.340 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 107.77 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 149)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.92 s ---
+
+		Worst performance cluster: 14	Performance: 1.07175746429 - Med: 0.299179215983
+		CHPs: 1 - HPs: 5 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.97 s ---
+
+		Worst performance cluster: 17	Performance: 0.70319356879 - Med: 0.247666579297
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.299			Compactness: 0.04473	 Diff: 0.958
+		Flex.:		Med Perf: 0.248			Compactness: 0.01843	 Diff: 0.582
+
+		Inc (all):	Med Perf: 17.22 %		Compactness: 58.80 %	 Diff: 39.237 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 75.43 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 149)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 54	Performance: 1.5054658737 - Med: 0.478766083732
+		CHPs: 0 - HPs: 4 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.39 s ---
+
+		Worst performance cluster: 17	Performance: 1.16493467313 - Med: 0.419819734351
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.479			Compactness: 0.05248	 Diff: 1.309
+		Flex.:		Med Perf: 0.420			Compactness: 0.04837	 Diff: 0.989
+
+		Inc (all):	Med Perf: 12.31 %		Compactness: 7.82 %	 Diff: 24.457 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 45.46 s ---
+
+		--- Executing this day (day 149): 1145.09 s
+
+
+Day/Horizon: 150
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 150)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.52 s ---
+
+		Worst performance cluster: 1	Performance: 0.160096623978 - Med: 0.0931242205383
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 14.89 s ---
+
+		Worst performance cluster: 0	Performance: 0.180412773424 - Med: 0.0905851224454
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.093			Compactness: 0.00060	 Diff: 0.102
+		Flex.:		Med Perf: 0.091			Compactness: 0.00097	 Diff: 0.122
+
+		Inc (all):	Med Perf: 2.73 %		Compactness: -61.69 %	 Diff: -19.440 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 376.84 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 150)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.90 s ---
+
+		Worst performance cluster: 3	Performance: 0.316177300926 - Med: 0.0963787828243
+		CHPs: 7 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.08 s ---
+
+		Worst performance cluster: 1	Performance: 0.301406015023 - Med: 0.11014270801
+		CHPs: 7 - HPs: 8 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.096			Compactness: 0.00513	 Diff: 0.242
+		Flex.:		Med Perf: 0.110			Compactness: 0.00389	 Diff: 0.223
+
+		Inc (all):	Med Perf: -14.28 %		Compactness: 24.24 %	 Diff: 7.656 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 269.74 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 150)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.60 s ---
+
+		Worst performance cluster: 2	Performance: 0.38861225903 - Med: 0.150910915129
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.69 s ---
+
+		Worst performance cluster: 8	Performance: 0.448525182926 - Med: 0.144902436622
+		CHPs: 6 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.151			Compactness: 0.00774	 Diff: 0.301
+		Flex.:		Med Perf: 0.145			Compactness: 0.00834	 Diff: 0.375
+
+		Inc (all):	Med Perf: 3.98 %		Compactness: -7.76 %	 Diff: -24.655 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 185.84 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 150)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.78 s ---
+
+		Worst performance cluster: 3	Performance: 0.493370676295 - Med: 0.245149618551
+		CHPs: 5 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.79 s ---
+
+		Worst performance cluster: 7	Performance: 0.79147617067 - Med: 0.224727863669
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.245			Compactness: 0.00837	 Diff: 0.383
+		Flex.:		Med Perf: 0.225			Compactness: 0.02492	 Diff: 0.664
+
+		Inc (all):	Med Perf: 8.33 %		Compactness: -197.56 %	 Diff: -73.519 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 107.29 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 150)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.95 s ---
+
+		Worst performance cluster: 2	Performance: 1.23588952184 - Med: 0.308154104715
+		CHPs: 1 - HPs: 3 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.96 s ---
+
+		Worst performance cluster: 22	Performance: 0.866017016436 - Med: 0.284358413142
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.308			Compactness: 0.05977	 Diff: 1.099
+		Flex.:		Med Perf: 0.284			Compactness: 0.03619	 Diff: 0.712
+
+		Inc (all):	Med Perf: 7.72 %		Compactness: 39.44 %	 Diff: 35.204 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 76.21 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 150)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.37 s ---
+
+		Worst performance cluster: 2	Performance: 1.62040691299 - Med: 0.506104368331
+		CHPs: 1 - HPs: 3 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 7	Performance: 1.36234272643 - Med: 0.462601059346
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.506			Compactness: 0.08536	 Diff: 1.387
+		Flex.:		Med Perf: 0.463			Compactness: 0.05122	 Diff: 1.155
+
+		Inc (all):	Med Perf: 8.60 %		Compactness: 39.99 %	 Diff: 16.688 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 46.68 s ---
+
+		--- Executing this day (day 150): 1093.38 s
+
+
+Day/Horizon: 151
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 151)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.97 s ---
+
+		Worst performance cluster: 10	Performance: 0.38544660827 - Med: 0.126425529642
+		CHPs: 9 - HPs: 5 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.30 s ---
+
+		Worst performance cluster: 2	Performance: 0.260991303566 - Med: 0.127696156285
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.126			Compactness: 0.00596	 Diff: 0.290
+		Flex.:		Med Perf: 0.128			Compactness: 0.00248	 Diff: 0.167
+
+		Inc (all):	Med Perf: -1.01 %		Compactness: 58.35 %	 Diff: 42.323 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 399.21 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 151)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.66 s ---
+
+		Worst performance cluster: 4	Performance: 0.592422810815 - Med: 0.149137463509
+		CHPs: 7 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.35 s ---
+
+		Worst performance cluster: 0	Performance: 0.339198603771 - Med: 0.143295450153
+		CHPs: 7 - HPs: 6 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.149			Compactness: 0.01629	 Diff: 0.489
+		Flex.:		Med Perf: 0.143			Compactness: 0.00329	 Diff: 0.234
+
+		Inc (all):	Med Perf: 3.92 %		Compactness: 79.79 %	 Diff: 52.183 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 285.11 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 151)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 5.18 s ---
+
+		Worst performance cluster: 14	Performance: 0.534495018009 - Med: 0.193402157612
+		CHPs: 8 - HPs: 2 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.84 s ---
+
+		Worst performance cluster: 0	Performance: 0.43992848619 - Med: 0.181461234031
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.193			Compactness: 0.00946	 Diff: 0.420
+		Flex.:		Med Perf: 0.181			Compactness: 0.00486	 Diff: 0.310
+
+		Inc (all):	Med Perf: 6.17 %		Compactness: 48.65 %	 Diff: 26.123 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 200.34 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 151)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.92 s ---
+
+		Worst performance cluster: 4	Performance: 1.6803892121 - Med: 0.265500732881
+		CHPs: 4 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.95 s ---
+
+		Worst performance cluster: 0	Performance: 0.571305802749 - Med: 0.257211349566
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.266			Compactness: 0.08261	 Diff: 1.511
+		Flex.:		Med Perf: 0.257			Compactness: 0.00670	 Diff: 0.442
+
+		Inc (all):	Med Perf: 3.12 %		Compactness: 91.88 %	 Diff: 70.727 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 116.05 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 151)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.95 s ---
+
+		Worst performance cluster: 29	Performance: 0.975909684057 - Med: 0.38216380821
+		CHPs: 2 - HPs: 5 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.01 s ---
+
+		Worst performance cluster: 0	Performance: 0.663189113863 - Med: 0.332522135733
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.382			Compactness: 0.03886	 Diff: 0.769
+		Flex.:		Med Perf: 0.333			Compactness: 0.00971	 Diff: 0.462
+
+		Inc (all):	Med Perf: 12.99 %		Compactness: 75.01 %	 Diff: 39.935 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 78.66 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 151)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.40 s ---
+
+		Worst performance cluster: 34	Performance: 2.503320391 - Med: 0.532704963473
+		CHPs: 2 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.42 s ---
+
+		Worst performance cluster: 22	Performance: 1.10577783022 - Med: 0.513114832902
+		CHPs: 2 - HPs: 2 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.533			Compactness: 0.15791	 Diff: 2.238
+		Flex.:		Med Perf: 0.513			Compactness: 0.03170	 Diff: 0.850
+
+		Inc (all):	Med Perf: 3.68 %		Compactness: 79.92 %	 Diff: 62.043 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 49.42 s ---
+
+		--- Executing this day (day 151): 1154.73 s
+
+
+Day/Horizon: 152
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 152)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.32 s ---
+
+		Worst performance cluster: 4	Performance: 0.45362296923 - Med: 0.128481314951
+		CHPs: 11 - HPs: 6 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.96 s ---
+
+		Worst performance cluster: 0	Performance: 0.553116238539 - Med: 0.159781661722
+		CHPs: 10 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.128			Compactness: 0.01154	 Diff: 0.381
+		Flex.:		Med Perf: 0.160			Compactness: 0.01777	 Diff: 0.496
+
+		Inc (all):	Med Perf: -24.36 %		Compactness: -54.02 %	 Diff: -30.390 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 399.41 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 152)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.23 s ---
+
+		Worst performance cluster: 12	Performance: 0.48122500995 - Med: 0.150098965208
+		CHPs: 11 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.18 s ---
+
+		Worst performance cluster: 0	Performance: 0.671690367047 - Med: 0.166165630727
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.150			Compactness: 0.01097	 Diff: 0.401
+		Flex.:		Med Perf: 0.166			Compactness: 0.02338	 Diff: 0.599
+
+		Inc (all):	Med Perf: -10.70 %		Compactness: -113.08 %	 Diff: -49.278 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 276.09 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 152)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.70 s ---
+
+		Worst performance cluster: 8	Performance: 0.802627748389 - Med: 0.19052146228
+		CHPs: 8 - HPs: 3 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.90 s ---
+
+		Worst performance cluster: 0	Performance: 0.402005816634 - Med: 0.174479130413
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.191			Compactness: 0.04003	 Diff: 0.706
+		Flex.:		Med Perf: 0.174			Compactness: 0.01084	 Diff: 0.318
+
+		Inc (all):	Med Perf: 8.42 %		Compactness: 72.92 %	 Diff: 54.953 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 192.05 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 152)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.92 s ---
+
+		Worst performance cluster: 12	Performance: 0.968260620775 - Med: 0.250468564198
+		CHPs: 6 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.98 s ---
+
+		Worst performance cluster: 7	Performance: 0.69477169684 - Med: 0.214717158555
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.250			Compactness: 0.03735	 Diff: 0.855
+		Flex.:		Med Perf: 0.215			Compactness: 0.02448	 Diff: 0.601
+
+		Inc (all):	Med Perf: 14.27 %		Compactness: 34.46 %	 Diff: 29.667 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 117.05 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 152)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 1.01 s ---
+
+		Worst performance cluster: 7	Performance: 1.18294209953 - Med: 0.293643680919
+		CHPs: 3 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.06 s ---
+
+		Worst performance cluster: 0	Performance: 0.739497511847 - Med: 0.244518006726
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.294			Compactness: 0.07386	 Diff: 1.039
+		Flex.:		Med Perf: 0.245			Compactness: 0.02647	 Diff: 0.621
+
+		Inc (all):	Med Perf: 16.73 %		Compactness: 64.16 %	 Diff: 40.259 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 83.08 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 152)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 28	Performance: 1.1684480149 - Med: 0.446013792969
+		CHPs: 3 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.45 s ---
+
+		Worst performance cluster: 7	Performance: 1.42921131298 - Med: 0.369946038244
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.446			Compactness: 0.07283	 Diff: 0.966
+		Flex.:		Med Perf: 0.370			Compactness: 0.05171	 Diff: 1.248
+
+		Inc (all):	Med Perf: 17.06 %		Compactness: 29.00 %	 Diff: -29.189 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 51.65 s ---
+
+		--- Executing this day (day 152): 1145.52 s
+
+
+Day/Horizon: 153
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 153)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.60 s ---
+
+		Worst performance cluster: 5	Performance: 0.181769523209 - Med: 0.122700801423
+		CHPs: 10 - HPs: 6 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 18.05 s ---
+
+		Worst performance cluster: 2	Performance: 0.202043622336 - Med: 0.0729047547854
+		CHPs: 11 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.123			Compactness: 0.00184	 Diff: 0.117
+		Flex.:		Med Perf: 0.073			Compactness: 0.00206	 Diff: 0.147
+
+		Inc (all):	Med Perf: 40.58 %		Compactness: -12.01 %	 Diff: -25.635 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 415.87 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 153)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 10.45 s ---
+
+		Worst performance cluster: 11	Performance: 0.337014189975 - Med: 0.115090813528
+		CHPs: 6 - HPs: 4 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.86 s ---
+
+		Worst performance cluster: 2	Performance: 0.277005335802 - Med: 0.0898051925943
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.115			Compactness: 0.00528	 Diff: 0.267
+		Flex.:		Med Perf: 0.090			Compactness: 0.00318	 Diff: 0.213
+
+		Inc (all):	Med Perf: 21.97 %		Compactness: 39.85 %	 Diff: 20.248 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 304.70 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 153)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.97 s ---
+
+		Worst performance cluster: 11	Performance: 0.401079222866 - Med: 0.140263180906
+		CHPs: 3 - HPs: 6 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 5.33 s ---
+
+		Worst performance cluster: 2	Performance: 0.325980506237 - Med: 0.113977515284
+		CHPs: 6 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.140			Compactness: 0.01041	 Diff: 0.320
+		Flex.:		Med Perf: 0.114			Compactness: 0.00440	 Diff: 0.246
+
+		Inc (all):	Med Perf: 18.74 %		Compactness: 57.73 %	 Diff: 23.059 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 206.12 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 153)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.91 s ---
+
+		Worst performance cluster: 11	Performance: 0.587941299049 - Med: 0.200690872031
+		CHPs: 1 - HPs: 2 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 2.02 s ---
+
+		Worst performance cluster: 2	Performance: 0.607272206804 - Med: 0.183039325976
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.201			Compactness: 0.01162	 Diff: 0.499
+		Flex.:		Med Perf: 0.183			Compactness: 0.00952	 Diff: 0.504
+
+		Inc (all):	Med Perf: 8.80 %		Compactness: 18.04 %	 Diff: -0.940 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 117.87 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 153)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.99 s ---
+
+		Worst performance cluster: 39	Performance: 0.852941542436 - Med: 0.283709492067
+		CHPs: 1 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.07 s ---
+
+		Worst performance cluster: 2	Performance: 0.618937901151 - Med: 0.242587075596
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.284			Compactness: 0.02411	 Diff: 0.710
+		Flex.:		Med Perf: 0.243			Compactness: 0.01242	 Diff: 0.472
+
+		Inc (all):	Med Perf: 14.49 %		Compactness: 48.48 %	 Diff: 33.421 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 82.36 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 153)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.42 s ---
+
+		Worst performance cluster: 59	Performance: 0.819822671727 - Med: 0.452624406119
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.44 s ---
+
+		Worst performance cluster: 2	Performance: 0.73638319956 - Med: 0.356937283913
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.453			Compactness: 0.02949	 Diff: 0.681
+		Flex.:		Med Perf: 0.357			Compactness: 0.01689	 Diff: 0.539
+
+		Inc (all):	Med Perf: 21.14 %		Compactness: 42.73 %	 Diff: 20.755 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 51.57 s ---
+
+		--- Executing this day (day 153): 1205.10 s
+
+
+Day/Horizon: 154
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 154)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 17.14 s ---
+
+		Worst performance cluster: 3	Performance: 0.0771045850031 - Med: 0.0513416620679
+		CHPs: 8 - HPs: 9 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.12 s ---
+
+		Worst performance cluster: 3	Performance: 0.0744481186966 - Med: 0.0570322242291
+		CHPs: 10 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.051			Compactness: 0.00019	 Diff: 0.049
+		Flex.:		Med Perf: 0.057			Compactness: 0.00009	 Diff: 0.027
+
+		Inc (all):	Med Perf: -11.08 %		Compactness: 51.14 %	 Diff: 45.034 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 399.16 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 154)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 10.07 s ---
+
+		Worst performance cluster: 0	Performance: 0.354644608379 - Med: 0.0788862462252
+		CHPs: 10 - HPs: 3 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 10.47 s ---
+
+		Worst performance cluster: 2	Performance: 0.157735206488 - Med: 0.0694504223553
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.079			Compactness: 0.00669	 Diff: 0.299
+		Flex.:		Med Perf: 0.069			Compactness: 0.00064	 Diff: 0.105
+
+		Inc (all):	Med Perf: 11.96 %		Compactness: 90.48 %	 Diff: 64.957 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 308.14 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 154)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.85 s ---
+
+		Worst performance cluster: 10	Performance: 0.429717484929 - Med: 0.104542463972
+		CHPs: 6 - HPs: 2 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 5.08 s ---
+
+		Worst performance cluster: 0	Performance: 0.179291140311 - Med: 0.0889571624327
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.105			Compactness: 0.00689	 Diff: 0.375
+		Flex.:		Med Perf: 0.089			Compactness: 0.00088	 Diff: 0.115
+
+		Inc (all):	Med Perf: 14.91 %		Compactness: 87.26 %	 Diff: 69.240 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 198.63 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 154)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 2.02 s ---
+
+		Worst performance cluster: 23	Performance: 0.760365887929 - Med: 0.164559188511
+		CHPs: 5 - HPs: 0 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 2.00 s ---
+
+		Worst performance cluster: 2	Performance: 0.503751033374 - Med: 0.133972270851
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.165			Compactness: 0.02096	 Diff: 0.672
+		Flex.:		Med Perf: 0.134			Compactness: 0.00506	 Diff: 0.404
+
+		Inc (all):	Med Perf: 18.59 %		Compactness: 75.84 %	 Diff: 39.925 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 120.48 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 154)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 1.01 s ---
+
+		Worst performance cluster: 30	Performance: 0.730639615345 - Med: 0.220575362852
+		CHPs: 2 - HPs: 0 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.03 s ---
+
+		Worst performance cluster: 2	Performance: 0.664002715748 - Med: 0.186583928467
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.221			Compactness: 0.01760	 Diff: 0.618
+		Flex.:		Med Perf: 0.187			Compactness: 0.00826	 Diff: 0.550
+
+		Inc (all):	Med Perf: 15.41 %		Compactness: 53.03 %	 Diff: 11.026 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 81.58 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 154)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.42 s ---
+
+		Worst performance cluster: 11	Performance: 0.867340839795 - Med: 0.340763915168
+		CHPs: 2 - HPs: 3 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.43 s ---
+
+		Worst performance cluster: 2	Performance: 0.809661911563 - Med: 0.300680710095
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.341			Compactness: 0.03257	 Diff: 0.751
+		Flex.:		Med Perf: 0.301			Compactness: 0.01351	 Diff: 0.652
+
+		Inc (all):	Med Perf: 11.76 %		Compactness: 58.53 %	 Diff: 13.212 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 50.60 s ---
+
+		--- Executing this day (day 154): 1185.85 s
+
+
+Day/Horizon: 155
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 155)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.78 s ---
+
+		Worst performance cluster: 7	Performance: 0.204275933582 - Med: 0.114458525407
+		CHPs: 6 - HPs: 11 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.83 s ---
+
+		Worst performance cluster: 1	Performance: 0.164172796475 - Med: 0.0978680831443
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.114			Compactness: 0.00145	 Diff: 0.138
+		Flex.:		Med Perf: 0.098			Compactness: 0.00115	 Diff: 0.106
+
+		Inc (all):	Med Perf: 14.49 %		Compactness: 20.90 %	 Diff: 23.046 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 403.37 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 155)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.32 s ---
+
+		Worst performance cluster: 7	Performance: 0.204035785253 - Med: 0.148674503825
+		CHPs: 6 - HPs: 3 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 10.05 s ---
+
+		Worst performance cluster: 1	Performance: 0.313772402199 - Med: 0.127908972603
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.149			Compactness: 0.00104	 Diff: 0.118
+		Flex.:		Med Perf: 0.128			Compactness: 0.00281	 Diff: 0.220
+
+		Inc (all):	Med Perf: 13.97 %		Compactness: -168.88 %	 Diff: -86.078 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 290.56 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 155)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.76 s ---
+
+		Worst performance cluster: 12	Performance: 0.442190426067 - Med: 0.191438232825
+		CHPs: 7 - HPs: 3 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.89 s ---
+
+		Worst performance cluster: 2	Performance: 0.363663397831 - Med: 0.15614171462
+		CHPs: 7 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.191			Compactness: 0.00822	 Diff: 0.352
+		Flex.:		Med Perf: 0.156			Compactness: 0.00447	 Diff: 0.253
+
+		Inc (all):	Med Perf: 18.44 %		Compactness: 45.60 %	 Diff: 28.156 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 192.91 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 155)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.89 s ---
+
+		Worst performance cluster: 7	Performance: 0.650589368779 - Med: 0.258099191497
+		CHPs: 3 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.90 s ---
+
+		Worst performance cluster: 20	Performance: 0.418250671787 - Med: 0.223802705899
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.258			Compactness: 0.02003	 Diff: 0.507
+		Flex.:		Med Perf: 0.224			Compactness: 0.00524	 Diff: 0.258
+
+		Inc (all):	Med Perf: 13.29 %		Compactness: 73.82 %	 Diff: 49.113 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 113.74 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 155)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.96 s ---
+
+		Worst performance cluster: 31	Performance: 0.888285543525 - Med: 0.358506271621
+		CHPs: 1 - HPs: 5 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 0.97 s ---
+
+		Worst performance cluster: 31	Performance: 0.555420199771 - Med: 0.312188505682
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.359			Compactness: 0.03028	 Diff: 0.753
+		Flex.:		Med Perf: 0.312			Compactness: 0.00670	 Diff: 0.356
+
+		Inc (all):	Med Perf: 12.92 %		Compactness: 77.85 %	 Diff: 52.771 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 77.50 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 155)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.40 s ---
+
+		Worst performance cluster: 31	Performance: 1.50432492909 - Med: 0.533236271294
+		CHPs: 0 - HPs: 4 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 9	Performance: 0.856132240932 - Med: 0.423596100001
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.533			Compactness: 0.06745	 Diff: 1.279
+		Flex.:		Med Perf: 0.424			Compactness: 0.02681	 Diff: 0.591
+
+		Inc (all):	Med Perf: 20.56 %		Compactness: 60.25 %	 Diff: 53.815 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 48.85 s ---
+
+		--- Executing this day (day 155): 1153.60 s
+
+
+Day/Horizon: 156
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 156)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 13.82 s ---
+
+		Worst performance cluster: 7	Performance: 0.631494940308 - Med: 0.276369941233
+		CHPs: 10 - HPs: 7 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 15.30 s ---
+
+		Worst performance cluster: 0	Performance: 0.371773029374 - Med: 0.291118956932
+		CHPs: 9 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.276			Compactness: 0.01427	 Diff: 0.540
+		Flex.:		Med Perf: 0.291			Compactness: 0.00489	 Diff: 0.254
+
+		Inc (all):	Med Perf: -5.34 %		Compactness: 65.75 %	 Diff: 52.942 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 349.50 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 156)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 8.22 s ---
+
+		Worst performance cluster: 4	Performance: 0.580257255239 - Med: 0.254385997022
+		CHPs: 9 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 8.37 s ---
+
+		Worst performance cluster: 0	Performance: 0.606246125719 - Med: 0.248630953076
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.254			Compactness: 0.01572	 Diff: 0.402
+		Flex.:		Med Perf: 0.249			Compactness: 0.01261	 Diff: 0.434
+
+		Inc (all):	Med Perf: 2.26 %		Compactness: 19.79 %	 Diff: -8.152 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 248.84 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 156)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.30 s ---
+
+		Worst performance cluster: 19	Performance: 1.07213731458 - Med: 0.276980766145
+		CHPs: 9 - HPs: 0 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.36 s ---
+
+		Worst performance cluster: 0	Performance: 0.798745153656 - Med: 0.28831072291
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.277			Compactness: 0.05899	 Diff: 0.946
+		Flex.:		Med Perf: 0.288			Compactness: 0.01879	 Diff: 0.663
+
+		Inc (all):	Med Perf: -4.09 %		Compactness: 68.14 %	 Diff: 29.953 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 173.35 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 156)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.82 s ---
+
+		Worst performance cluster: 19	Performance: 1.01006304997 - Med: 0.319468835238
+		CHPs: 3 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.94 s ---
+
+		Worst performance cluster: 0	Performance: 0.759901376612 - Med: 0.33182725929
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.319			Compactness: 0.04349	 Diff: 0.845
+		Flex.:		Med Perf: 0.332			Compactness: 0.01717	 Diff: 0.636
+
+		Inc (all):	Med Perf: -3.87 %		Compactness: 60.51 %	 Diff: 24.777 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 112.81 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 156)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.97 s ---
+
+		Worst performance cluster: 16	Performance: 1.54619811728 - Med: 0.366759275684
+		CHPs: 2 - HPs: 1 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.02 s ---
+
+		Worst performance cluster: 0	Performance: 0.98173848357 - Med: 0.361959319052
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.367			Compactness: 0.08528	 Diff: 1.374
+		Flex.:		Med Perf: 0.362			Compactness: 0.02519	 Diff: 0.778
+
+		Inc (all):	Med Perf: 1.31 %		Compactness: 70.46 %	 Diff: 43.372 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 79.80 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 156)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 59	Performance: 1.58374804337 - Med: 0.538697397529
+		CHPs: 4 - HPs: 0 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.43 s ---
+
+		Worst performance cluster: 0	Performance: 0.924082725139 - Med: 0.456400116852
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.539			Compactness: 0.11622	 Diff: 1.332
+		Flex.:		Med Perf: 0.456			Compactness: 0.02952	 Diff: 0.725
+
+		Inc (all):	Med Perf: 15.28 %		Compactness: 74.60 %	 Diff: 45.543 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 50.43 s ---
+
+		--- Executing this day (day 156): 1039.28 s
+
+
+Day/Horizon: 157
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 157)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.90 s ---
+
+		Worst performance cluster: 10	Performance: 0.437899337818 - Med: 0.162376511062
+		CHPs: 13 - HPs: 7 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.81 s ---
+
+		Worst performance cluster: 0	Performance: 0.331783071383 - Med: 0.0991420796186
+		CHPs: 9 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.162			Compactness: 0.01329	 Diff: 0.380
+		Flex.:		Med Perf: 0.099			Compactness: 0.00646	 Diff: 0.262
+
+		Inc (all):	Med Perf: 38.94 %		Compactness: 51.36 %	 Diff: 31.118 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 404.54 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 157)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 10.69 s ---
+
+		Worst performance cluster: 13	Performance: 0.414667091725 - Med: 0.10228285969
+		CHPs: 9 - HPs: 5 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 10.27 s ---
+
+		Worst performance cluster: 0	Performance: 0.409740641986 - Med: 0.151138836661
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.102			Compactness: 0.01895	 Diff: 0.334
+		Flex.:		Med Perf: 0.151			Compactness: 0.00886	 Diff: 0.342
+
+		Inc (all):	Med Perf: -47.77 %		Compactness: 53.22 %	 Diff: -2.379 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 314.40 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 157)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.93 s ---
+
+		Worst performance cluster: 12	Performance: 0.548569953977 - Med: 0.163014701198
+		CHPs: 5 - HPs: 6 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 5.00 s ---
+
+		Worst performance cluster: 0	Performance: 0.479632236024 - Med: 0.154457258125
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.163			Compactness: 0.01296	 Diff: 0.448
+		Flex.:		Med Perf: 0.154			Compactness: 0.01323	 Diff: 0.384
+
+		Inc (all):	Med Perf: 5.25 %		Compactness: -2.10 %	 Diff: 14.247 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 198.49 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 157)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.98 s ---
+
+		Worst performance cluster: 22	Performance: 0.947951627545 - Med: 0.199342627952
+		CHPs: 6 - HPs: 3 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.98 s ---
+
+		Worst performance cluster: 0	Performance: 0.524367734357 - Med: 0.222517913214
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.199			Compactness: 0.04539	 Diff: 0.846
+		Flex.:		Med Perf: 0.223			Compactness: 0.01075	 Diff: 0.404
+
+		Inc (all):	Med Perf: -11.63 %		Compactness: 76.31 %	 Diff: 52.313 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 118.85 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 157)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 1.00 s ---
+
+		Worst performance cluster: 18	Performance: 1.02328987776 - Med: 0.283197000205
+		CHPs: 5 - HPs: 0 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.08 s ---
+
+		Worst performance cluster: 1	Performance: 0.864747472444 - Med: 0.314183108451
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.283			Compactness: 0.06051	 Diff: 0.897
+		Flex.:		Med Perf: 0.314			Compactness: 0.02675	 Diff: 0.724
+
+		Inc (all):	Med Perf: -10.94 %		Compactness: 55.78 %	 Diff: 19.315 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 83.13 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 157)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.43 s ---
+
+		Worst performance cluster: 52	Performance: 1.50144582228 - Med: 0.45442962314
+		CHPs: 4 - HPs: 1 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.45 s ---
+
+		Worst performance cluster: 11	Performance: 1.11210328568 - Med: 0.449112993079
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.454			Compactness: 0.08486	 Diff: 1.312
+		Flex.:		Med Perf: 0.449			Compactness: 0.04010	 Diff: 0.859
+
+		Inc (all):	Med Perf: 1.17 %		Compactness: 52.75 %	 Diff: 34.489 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 52.54 s ---
+
+		--- Executing this day (day 157): 1199.27 s
+
+
+Day/Horizon: 158
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 158)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 16.30 s ---
+
+		Worst performance cluster: 0	Performance: 0.0966389168321 - Med: 0.0641280030571
+		CHPs: 8 - HPs: 10 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 15.71 s ---
+
+		Worst performance cluster: 0	Performance: 0.0912620175823 - Med: 0.0610899799397
+		CHPs: 10 - HPs: 8 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.064			Compactness: 0.00022	 Diff: 0.048
+		Flex.:		Med Perf: 0.061			Compactness: 0.00015	 Diff: 0.043
+
+		Inc (all):	Med Perf: 4.74 %		Compactness: 32.55 %	 Diff: 9.753 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 384.12 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 158)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.71 s ---
+
+		Worst performance cluster: 9	Performance: 0.144765878631 - Med: 0.0767076421038
+		CHPs: 10 - HPs: 6 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 9.70 s ---
+
+		Worst performance cluster: 0	Performance: 0.122513287163 - Med: 0.0744643479162
+		CHPs: 7 - HPs: 6 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.077			Compactness: 0.00046	 Diff: 0.087
+		Flex.:		Med Perf: 0.074			Compactness: 0.00037	 Diff: 0.070
+
+		Inc (all):	Med Perf: 2.92 %		Compactness: 19.12 %	 Diff: 18.932 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 291.12 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 158)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.93 s ---
+
+		Worst performance cluster: 14	Performance: 0.168851838391 - Med: 0.116264106836
+		CHPs: 6 - HPs: 7 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 4.87 s ---
+
+		Worst performance cluster: 0	Performance: 0.265346768575 - Med: 0.101912164444
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.116			Compactness: 0.00080	 Diff: 0.097
+		Flex.:		Med Perf: 0.102			Compactness: 0.00142	 Diff: 0.182
+
+		Inc (all):	Med Perf: 12.34 %		Compactness: -76.98 %	 Diff: -88.144 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 195.91 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 158)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.92 s ---
+
+		Worst performance cluster: 24	Performance: 0.430820723349 - Med: 0.170294341137
+		CHPs: 4 - HPs: 4 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.90 s ---
+
+		Worst performance cluster: 0	Performance: 0.319188037573 - Med: 0.167216062482
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.170			Compactness: 0.00382	 Diff: 0.330
+		Flex.:		Med Perf: 0.167			Compactness: 0.00270	 Diff: 0.203
+
+		Inc (all):	Med Perf: 1.81 %		Compactness: 29.42 %	 Diff: 38.366 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 114.71 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 158)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 1.00 s ---
+
+		Worst performance cluster: 30	Performance: 0.587610652396 - Med: 0.245039573859
+		CHPs: 3 - HPs: 3 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.01 s ---
+
+		Worst performance cluster: 6	Performance: 0.63887520572 - Med: 0.22494550026
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.245			Compactness: 0.01412	 Diff: 0.449
+		Flex.:		Med Perf: 0.225			Compactness: 0.00903	 Diff: 0.507
+
+		Inc (all):	Med Perf: 8.20 %		Compactness: 36.08 %	 Diff: -12.802 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 80.41 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 158)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.40 s ---
+
+		Worst performance cluster: 54	Performance: 0.977233121193 - Med: 0.385581391544
+		CHPs: 3 - HPs: 2 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.41 s ---
+
+		Worst performance cluster: 6	Performance: 0.869172488531 - Med: 0.357548993232
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.386			Compactness: 0.03580	 Diff: 0.760
+		Flex.:		Med Perf: 0.358			Compactness: 0.02468	 Diff: 0.721
+
+		Inc (all):	Med Perf: 7.27 %		Compactness: 31.06 %	 Diff: 5.121 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 48.62 s ---
+
+		--- Executing this day (day 158): 1144.40 s
+
+
+Day/Horizon: 159
+
+
+	12 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 25.00		(Day/Horizon: 159)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (25.0 members): 17.08 s ---
+
+		Worst performance cluster: 10	Performance: 0.132237020272 - Med: 0.106538746339
+		CHPs: 11 - HPs: 5 - Avg: 10.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (25.0 members): 16.96 s ---
+
+		Worst performance cluster: 3	Performance: 0.167828505946 - Med: 0.107115367813
+		CHPs: 9 - HPs: 9 - Avg: 10.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.107			Compactness: 0.00029	 Diff: 0.064
+		Flex.:		Med Perf: 0.107			Compactness: 0.00106	 Diff: 0.101
+
+		Inc (all):	Med Perf: -0.54 %		Compactness: -262.04 %	 Diff: -57.299 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 408.52 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 20.00		(Day/Horizon: 159)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (20.0 members): 9.94 s ---
+
+		Worst performance cluster: 5	Performance: 0.259955610896 - Med: 0.124772342555
+		CHPs: 8 - HPs: 7 - Avg: 8.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (20.0 members): 10.53 s ---
+
+		Worst performance cluster: 0	Performance: 0.195504163491 - Med: 0.127179295393
+		CHPs: 7 - HPs: 7 - Avg: 8.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.125			Compactness: 0.00286	 Diff: 0.174
+		Flex.:		Med Perf: 0.127			Compactness: 0.00085	 Diff: 0.127
+
+		Inc (all):	Med Perf: -1.93 %		Compactness: 70.43 %	 Diff: 26.805 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 307.09 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 15.00		(Day/Horizon: 159)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 4.94 s ---
+
+		Worst performance cluster: 1	Performance: 0.305464048211 - Med: 0.156989467285
+		CHPs: 6 - HPs: 7 - Avg: 6.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 5.12 s ---
+
+		Worst performance cluster: 3	Performance: 0.285101864662 - Med: 0.147824456145
+		CHPs: 5 - HPs: 5 - Avg: 6.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.157			Compactness: 0.00414	 Diff: 0.224
+		Flex.:		Med Perf: 0.148			Compactness: 0.00235	 Diff: 0.199
+
+		Inc (all):	Med Perf: 5.84 %		Compactness: 43.39 %	 Diff: 11.141 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 201.34 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 10.00		(Day/Horizon: 159)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.91 s ---
+
+		Worst performance cluster: 22	Performance: 0.581544694357 - Med: 0.246588732707
+		CHPs: 3 - HPs: 1 - Avg: 4.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.99 s ---
+
+		Worst performance cluster: 3	Performance: 0.526795133648 - Med: 0.200698344816
+		CHPs: 4 - HPs: 3 - Avg: 4.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.247			Compactness: 0.01608	 Diff: 0.461
+		Flex.:		Med Perf: 0.201			Compactness: 0.00950	 Diff: 0.401
+
+		Inc (all):	Med Perf: 18.61 %		Compactness: 40.90 %	 Diff: 13.080 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 117.05 s ---
+
+
+	40 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 7.50		(Day/Horizon: 159)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (7.5 members): 0.97 s ---
+
+		Worst performance cluster: 0	Performance: 1.06967921199 - Med: 0.34176332732
+		CHPs: 1 - HPs: 3 - Avg: 3.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (7.5 members): 1.05 s ---
+
+		Worst performance cluster: 3	Performance: 0.653282853382 - Med: 0.286816330916
+		CHPs: 3 - HPs: 2 - Avg: 3.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.342			Compactness: 0.04852	 Diff: 0.903
+		Flex.:		Med Perf: 0.287			Compactness: 0.01321	 Diff: 0.506
+
+		Inc (all):	Med Perf: 16.08 %		Compactness: 72.78 %	 Diff: 43.944 %
+
+			--- Executing this cluster splitting: (7.5 members per cluster): 80.66 s ---
+
+
+	60 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 5.00		(Day/Horizon: 159)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.40 s ---
+
+		Worst performance cluster: 24	Performance: 1.09344868629 - Med: 0.546700642229
+		CHPs: 1 - HPs: 2 - Avg: 2.00
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.44 s ---
+
+		Worst performance cluster: 7	Performance: 1.17644284177 - Med: 0.458704023061
+		CHPs: 2 - HPs: 1 - Avg: 2.00
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.547			Compactness: 0.03587	 Diff: 0.889
+		Flex.:		Med Perf: 0.459			Compactness: 0.04231	 Diff: 0.965
+
+		Inc (all):	Med Perf: 16.10 %		Compactness: -17.98 %	 Diff: -8.550 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 50.62 s ---
+
+		--- Executing this day (day 159): 1192.53 s

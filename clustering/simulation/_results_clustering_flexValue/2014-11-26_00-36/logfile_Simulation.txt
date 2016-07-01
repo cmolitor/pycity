@@ -1,0 +1,707 @@
+Simulation data:
+
+No. of Bes: 150
+Step Size: 3600
+Starting Horizon: 130
+No. of Horizons: 14
+Criterion: energy
+Solution Pool Gap: 2
+Random-seed: 4
+Cluster Splitting: [8, 10, 15, 30]
+Share of Renewables: 20
+Solution Pool Intensity: 4
+
+
+
+
+Day/Horizon: 130
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 4.69 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 4.47 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.124468225498	Greatest Diff.: 0.148364869494
+		Controlled:	Avg Perf: 0.161188951382	Greatest Diff.: 0.189029602054
+		Increases:	Avg Perf: -29.50 %			Greatest Diff.: -27.41 %
+
+		Flexibility Variation:
+		Random: 50.61 %
+		Contr.: 4.02 %
+		Difference: 46.59 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 73.27 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 2.80 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 2.82 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.204607393261	Greatest Diff.: 0.574185282984
+		Controlled:	Avg Perf: 0.172959805941	Greatest Diff.: 0.188399239335
+		Increases:	Avg Perf: 15.47 %			Greatest Diff.: 67.19 %
+
+		Flexibility Variation:
+		Random: 71.80 %
+		Contr.: 4.30 %
+		Difference: 67.50 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 56.20 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.20 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.16 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.248096585374	Greatest Diff.: 0.483578934899
+		Controlled:	Avg Perf: 0.245857806105	Greatest Diff.: 0.5092517501
+		Increases:	Avg Perf: 0.90 %			Greatest Diff.: -5.31 %
+
+		Flexibility Variation:
+		Random: 79.51 %
+		Contr.: 7.09 %
+		Difference: 72.42 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 35.48 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.24 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.27 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.526840724044	Greatest Diff.: 1.15604821991
+		Controlled:	Avg Perf: 0.525047574147	Greatest Diff.: 1.60685308804
+		Increases:	Avg Perf: 0.34 %			Greatest Diff.: -39.00 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 28.94 %
+		Difference: 71.06 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 15.30 s ---
+
+		--- Executing this day (day 130): 192.55 s
+
+
+Day/Horizon: 131
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 5.99 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 5.90 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.0836360467564	Greatest Diff.: 0.0949973662161
+		Controlled:	Avg Perf: 0.0922667138768	Greatest Diff.: 0.147666941099
+		Increases:	Avg Perf: -10.32 %			Greatest Diff.: -55.44 %
+
+		Flexibility Variation:
+		Random: 38.84 %
+		Contr.: 3.70 %
+		Difference: 35.14 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 95.17 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.43 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.75 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.146994177705	Greatest Diff.: 0.354263356809
+		Controlled:	Avg Perf: 0.139454419069	Greatest Diff.: 0.195540711371
+		Increases:	Avg Perf: 5.13 %			Greatest Diff.: 44.80 %
+
+		Flexibility Variation:
+		Random: 74.49 %
+		Contr.: 3.72 %
+		Difference: 70.76 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 71.77 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.35 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.42 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.211683615271	Greatest Diff.: 0.502895583838
+		Controlled:	Avg Perf: 0.216825943036	Greatest Diff.: 0.565235594556
+		Increases:	Avg Perf: -2.43 %			Greatest Diff.: -12.40 %
+
+		Flexibility Variation:
+		Random: 82.17 %
+		Contr.: 5.83 %
+		Difference: 76.34 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 41.52 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 131)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.28 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.35 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.52989557335	Greatest Diff.: 1.53675144943
+		Controlled:	Avg Perf: 0.543511455236	Greatest Diff.: 1.75622442604
+		Increases:	Avg Perf: -2.57 %			Greatest Diff.: -14.28 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 37.52 %
+		Difference: 62.48 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 18.78 s ---
+
+		--- Executing this day (day 131): 238.40 s
+
+
+Day/Horizon: 132
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 6.15 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 5.88 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.091066146396	Greatest Diff.: 0.124971877971
+		Controlled:	Avg Perf: 0.0792418566432	Greatest Diff.: 0.0807558935812
+		Increases:	Avg Perf: 12.98 %			Greatest Diff.: 35.38 %
+
+		Flexibility Variation:
+		Random: 49.31 %
+		Contr.: 4.12 %
+		Difference: 45.19 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 96.27 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.44 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.45 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.123022377266	Greatest Diff.: 0.212262493785
+		Controlled:	Avg Perf: 0.0983132777671	Greatest Diff.: 0.0875657920506
+		Increases:	Avg Perf: 20.09 %			Greatest Diff.: 58.75 %
+
+		Flexibility Variation:
+		Random: 75.90 %
+		Contr.: 2.97 %
+		Difference: 72.93 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 68.97 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.37 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.46 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.20192577922	Greatest Diff.: 0.416231527009
+		Controlled:	Avg Perf: 0.178705846082	Greatest Diff.: 0.287912231644
+		Increases:	Avg Perf: 11.50 %			Greatest Diff.: 30.83 %
+
+		Flexibility Variation:
+		Random: 81.45 %
+		Contr.: 5.97 %
+		Difference: 75.48 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 42.34 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 132)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.29 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.30 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.456320797666	Greatest Diff.: 1.07543586086
+		Controlled:	Avg Perf: 0.453507237874	Greatest Diff.: 1.75925472733
+		Increases:	Avg Perf: 0.62 %			Greatest Diff.: -63.59 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 44.03 %
+		Difference: 55.97 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 17.91 s ---
+
+		--- Executing this day (day 132): 236.31 s
+
+
+Day/Horizon: 133
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 6.40 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 5.71 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.127149939307	Greatest Diff.: 0.205968474149
+		Controlled:	Avg Perf: 0.125551106424	Greatest Diff.: 0.161222193263
+		Increases:	Avg Perf: 1.26 %			Greatest Diff.: 21.72 %
+
+		Flexibility Variation:
+		Random: 62.07 %
+		Contr.: 2.13 %
+		Difference: 59.94 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 96.83 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.47 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.59 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.153071985492	Greatest Diff.: 0.212379529698
+		Controlled:	Avg Perf: 0.151864030669	Greatest Diff.: 0.262557494422
+		Increases:	Avg Perf: 0.79 %			Greatest Diff.: -23.63 %
+
+		Flexibility Variation:
+		Random: 79.53 %
+		Contr.: 3.13 %
+		Difference: 76.40 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 70.61 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.30 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.43 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.241147575067	Greatest Diff.: 0.436541616531
+		Controlled:	Avg Perf: 0.21306216911	Greatest Diff.: 0.42472746071
+		Increases:	Avg Perf: 11.65 %			Greatest Diff.: 2.71 %
+
+		Flexibility Variation:
+		Random: 77.84 %
+		Contr.: 12.33 %
+		Difference: 65.51 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 41.02 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 133)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.28 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.33 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.531213698784	Greatest Diff.: 1.03548819611
+		Controlled:	Avg Perf: 0.517138820087	Greatest Diff.: 2.12739518731
+		Increases:	Avg Perf: 2.65 %			Greatest Diff.: -105.45 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 56.35 %
+		Difference: 43.65 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 18.24 s ---
+
+		--- Executing this day (day 133): 237.64 s
+
+
+Day/Horizon: 134
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 6.28 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 6.09 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.0919785739131	Greatest Diff.: 0.0671996201888
+		Controlled:	Avg Perf: 0.0891515821868	Greatest Diff.: 0.0953762091883
+		Increases:	Avg Perf: 3.07 %			Greatest Diff.: -41.93 %
+
+		Flexibility Variation:
+		Random: 59.01 %
+		Contr.: 3.99 %
+		Difference: 55.02 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 98.92 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.68 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.41 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.122217673804	Greatest Diff.: 0.146605316405
+		Controlled:	Avg Perf: 0.115035037107	Greatest Diff.: 0.165067761919
+		Increases:	Avg Perf: 5.88 %			Greatest Diff.: -12.59 %
+
+		Flexibility Variation:
+		Random: 68.33 %
+		Contr.: 3.86 %
+		Difference: 64.47 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 70.90 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.31 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.37 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.206322491168	Greatest Diff.: 0.281231004481
+		Controlled:	Avg Perf: 0.213470825482	Greatest Diff.: 0.541771231733
+		Increases:	Avg Perf: -3.46 %			Greatest Diff.: -92.64 %
+
+		Flexibility Variation:
+		Random: 75.79 %
+		Contr.: 12.78 %
+		Difference: 63.01 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 40.19 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 134)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.28 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.30 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.483114368361	Greatest Diff.: 1.20615984851
+		Controlled:	Avg Perf: 0.491896681733	Greatest Diff.: 1.36188936158
+		Increases:	Avg Perf: -1.82 %			Greatest Diff.: -12.91 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 50.30 %
+		Difference: 49.70 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 17.28 s ---
+
+		--- Executing this day (day 134): 238.25 s
+
+
+Day/Horizon: 135
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 5.33 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 5.02 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.13297835755	Greatest Diff.: 0.102589586297
+		Controlled:	Avg Perf: 0.158801813299	Greatest Diff.: 0.0836065851685
+		Increases:	Avg Perf: -19.42 %			Greatest Diff.: 18.50 %
+
+		Flexibility Variation:
+		Random: 54.80 %
+		Contr.: 2.71 %
+		Difference: 52.09 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 82.82 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 2.89 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.00 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.181637591075	Greatest Diff.: 0.203444759508
+		Controlled:	Avg Perf: 0.176072874887	Greatest Diff.: 0.181411059733
+		Increases:	Avg Perf: 3.06 %			Greatest Diff.: 10.83 %
+
+		Flexibility Variation:
+		Random: 73.03 %
+		Contr.: 2.48 %
+		Difference: 70.55 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 58.88 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.11 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.15 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.267466537016	Greatest Diff.: 0.443344260235
+		Controlled:	Avg Perf: 0.269239382878	Greatest Diff.: 0.53114794954
+		Increases:	Avg Perf: -0.66 %			Greatest Diff.: -19.80 %
+
+		Flexibility Variation:
+		Random: 84.75 %
+		Contr.: 18.84 %
+		Difference: 65.91 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 33.90 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 135)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.24 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.27 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.490818363006	Greatest Diff.: 0.844186835605
+		Controlled:	Avg Perf: 0.477938441258	Greatest Diff.: 0.780296308646
+		Increases:	Avg Perf: 2.62 %			Greatest Diff.: 7.57 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 62.40 %
+		Difference: 37.60 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 15.01 s ---
+
+		--- Executing this day (day 135): 199.26 s
+
+
+Day/Horizon: 136
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 4.46 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 4.77 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.190914369183	Greatest Diff.: 0.169934929824
+		Controlled:	Avg Perf: 0.177078338797	Greatest Diff.: 0.205776071314
+		Increases:	Avg Perf: 7.25 %			Greatest Diff.: -21.09 %
+
+		Flexibility Variation:
+		Random: 65.35 %
+		Contr.: 1.74 %
+		Difference: 63.62 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 73.81 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 2.31 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 2.71 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.237073863808	Greatest Diff.: 0.382949711791
+		Controlled:	Avg Perf: 0.203869488219	Greatest Diff.: 0.23186144002
+		Increases:	Avg Perf: 14.01 %			Greatest Diff.: 39.45 %
+
+		Flexibility Variation:
+		Random: 81.57 %
+		Contr.: 5.18 %
+		Difference: 76.38 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 50.20 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 0.90 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.04 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.289482120945	Greatest Diff.: 0.678634619513
+		Controlled:	Avg Perf: 0.263102091875	Greatest Diff.: 0.328500305525
+		Increases:	Avg Perf: 9.11 %			Greatest Diff.: 51.59 %
+
+		Flexibility Variation:
+		Random: 89.12 %
+		Contr.: 33.23 %
+		Difference: 55.88 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 29.19 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 136)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.21 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.24 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.438295055376	Greatest Diff.: 0.722444500601
+		Controlled:	Avg Perf: 0.425570371919	Greatest Diff.: 0.654644903799
+		Increases:	Avg Perf: 2.90 %			Greatest Diff.: 9.38 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 72.98 %
+		Difference: 27.02 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 13.29 s ---
+
+		--- Executing this day (day 136): 174.28 s
+
+
+Day/Horizon: 137
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 4.59 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 4.94 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.179902052159	Greatest Diff.: 0.206017216265
+		Controlled:	Avg Perf: 0.167329107813	Greatest Diff.: 0.208729238517
+		Increases:	Avg Perf: 6.99 %			Greatest Diff.: -1.32 %
+
+		Flexibility Variation:
+		Random: 71.74 %
+		Contr.: 21.25 %
+		Difference: 50.48 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 76.21 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 2.74 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 2.87 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.220126382705	Greatest Diff.: 0.208369674059
+		Controlled:	Avg Perf: 0.195106170271	Greatest Diff.: 0.258716134317
+		Increases:	Avg Perf: 11.37 %			Greatest Diff.: -24.16 %
+
+		Flexibility Variation:
+		Random: 84.11 %
+		Contr.: 28.82 %
+		Difference: 55.29 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 56.15 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.14 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.14 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.284034677575	Greatest Diff.: 0.5064045354
+		Controlled:	Avg Perf: 0.285060798016	Greatest Diff.: 0.532493772311
+		Increases:	Avg Perf: -0.36 %			Greatest Diff.: -5.15 %
+
+		Flexibility Variation:
+		Random: 77.59 %
+		Contr.: 39.65 %
+		Difference: 37.94 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 34.28 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 137)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.23 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.24 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.482950578451	Greatest Diff.: 1.05947203379
+		Controlled:	Avg Perf: 0.465090438055	Greatest Diff.: 1.00222731963
+		Increases:	Avg Perf: 3.70 %			Greatest Diff.: 5.40 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 73.48 %
+		Difference: 26.52 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 14.32 s ---
+
+		--- Executing this day (day 137): 189.59 s
+
+
+Day/Horizon: 138
+
+
+	8 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 18.8		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (18.8 members): 5.37 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (18.8 members): 5.61 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.136878242716	Greatest Diff.: 0.250432558393
+		Controlled:	Avg Perf: 0.118884336108	Greatest Diff.: 0.132636478375
+		Increases:	Avg Perf: 13.15 %			Greatest Diff.: 47.04 %
+
+		Flexibility Variation:
+		Random: 59.54 %
+		Contr.: 2.29 %
+		Difference: 57.25 %
+
+			--- Executing this cluster splitting: (18.8 members per cluster): 87.86 s ---
+
+
+	10 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 15.0		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (15.0 members): 3.14 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (15.0 members): 3.52 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.153997558843	Greatest Diff.: 0.126788453254
+		Controlled:	Avg Perf: 0.138053669127	Greatest Diff.: 0.178009474575
+		Increases:	Avg Perf: 10.35 %			Greatest Diff.: -40.40 %
+
+		Flexibility Variation:
+		Random: 75.05 %
+		Contr.: 2.00 %
+		Difference: 73.05 %
+
+			--- Executing this cluster splitting: (15.0 members per cluster): 66.56 s ---
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 10.0		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (10.0 members): 1.20 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (10.0 members): 1.26 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.230641024049	Greatest Diff.: 0.387982705671
+		Controlled:	Avg Perf: 0.207100707381	Greatest Diff.: 0.274894311402
+		Increases:	Avg Perf: 10.21 %			Greatest Diff.: 29.15 %
+
+		Flexibility Variation:
+		Random: 82.93 %
+		Contr.: 18.48 %
+		Difference: 64.45 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 36.85 s ---
+
+
+	30 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 5.0		(Day/Horizon: 138)
+
+			--- Avg. time choosing schedules for each cluster (random clustering): (5.0 members): 0.25 s ---
+			--- Avg. time choosing schedules for each cluster (contr. clustering): (5.0 members): 0.29 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Avg Perf: 0.408476612441	Greatest Diff.: 0.719442870437
+		Controlled:	Avg Perf: 0.339834143559	Greatest Diff.: 0.476199189884
+		Increases:	Avg Perf: 16.80 %			Greatest Diff.: 33.81 %
+
+		Flexibility Variation:
+		Random: 100.00 %
+		Contr.: 62.93 %
+		Difference: 37.07 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 16.21 s ---
+
+		--- Executing this day (day 138): 216.55 s

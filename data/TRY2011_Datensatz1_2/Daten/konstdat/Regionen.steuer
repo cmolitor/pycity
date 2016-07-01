@@ -1,0 +1,19 @@
+# Anzahl der Regionen [i2]
+15
+# Nr. der Region; Name der Region; Höhe der Station  [i2,2x,a30,i4]
+ 1  Bremerhaven                   0007                                              
+ 2  Rostock                       0004
+ 3  Hamburg                       0013
+ 4  Potsdam                       0081
+ 5  Essen                         0152
+ 6  Bad Marienberg                0547
+ 7  Kassel                        0231
+ 8  Braunlage                     0607
+ 9  Chemnitz                      0418
+10  Hof                           0567
+11  Fichtelberg                   1213
+12  Mannheim                      0096
+13  Muehldorf                     0409
+14  Stoetten                      0734
+15  Garmisch                      0719
+'

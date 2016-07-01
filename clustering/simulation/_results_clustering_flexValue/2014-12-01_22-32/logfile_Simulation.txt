@@ -1,0 +1,131 @@
+Simulation data:
+
+No. of Bes: 500
+Step Size: 1800
+Starting Horizon: 130
+No. of Horizons: 1
+Criterion: energy
+Solution Pool Gap: 2
+Random-seed: 17
+Cluster Splitting: [10, 13, 17, 20, 25, 33, 50, 100]
+Share of Renewables: 20
+Solution Pool Intensity: 4
+
+
+
+
+Day/Horizon: 130
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 50.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (50.0 members): 621.15 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (50.0 members): 642.12 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.037			Compactness: 0.00047	 Diff: 0.068
+		Flex.:		Med Perf: 0.039			Compactness: 0.00016	 Diff: 0.047
+
+		Inc (all):	Med Perf: -4.87 %		Compactness: 65.70 %	 Diff: 30.681 %
+
+			--- Executing this cluster splitting: (50.0 members per cluster): 1263.32 s ---
+
+
+	13 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 38.46		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (38.5 members): 469.01 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (38.5 members): 454.85 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.052			Compactness: 0.00046	 Diff: 0.089
+		Flex.:		Med Perf: 0.044			Compactness: 0.00041	 Diff: 0.071
+
+		Inc (all):	Med Perf: 14.05 %		Compactness: 9.96 %	 Diff: 20.361 %
+
+			--- Executing this cluster splitting: (38.5 members per cluster): 923.90 s ---
+
+
+	17 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 29.41		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (29.4 members): 318.80 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (29.4 members): 323.38 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.056			Compactness: 0.00089	 Diff: 0.128
+		Flex.:		Med Perf: 0.058			Compactness: 0.00076	 Diff: 0.113
+
+		Inc (all):	Med Perf: -3.38 %		Compactness: 15.31 %	 Diff: 11.831 %
+
+			--- Executing this cluster splitting: (29.4 members per cluster): 642.21 s ---
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 25.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (25.0 members): 256.35 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (25.0 members): 260.87 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.070			Compactness: 0.00324	 Diff: 0.213
+		Flex.:		Med Perf: 0.068			Compactness: 0.00173	 Diff: 0.195
+
+		Inc (all):	Med Perf: 3.64 %		Compactness: 46.56 %	 Diff: 8.553 %
+
+			--- Executing this cluster splitting: (25.0 members per cluster): 517.23 s ---
+
+
+	25 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 20.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (20.0 members): 190.77 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (20.0 members): 208.24 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.084			Compactness: 0.00765	 Diff: 0.241
+		Flex.:		Med Perf: 0.077			Compactness: 0.00476	 Diff: 0.338
+
+		Inc (all):	Med Perf: 8.69 %		Compactness: 37.77 %	 Diff: -40.098 %
+
+			--- Executing this cluster splitting: (20.0 members per cluster): 399.03 s ---
+
+
+	33 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 15.15		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (15.2 members): 136.32 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (15.2 members): 137.04 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.114			Compactness: 0.01031	 Diff: 0.513
+		Flex.:		Med Perf: 0.107			Compactness: 0.00338	 Diff: 0.291
+
+		Inc (all):	Med Perf: 6.15 %		Compactness: 67.22 %	 Diff: 43.268 %
+
+			--- Executing this cluster splitting: (15.2 members per cluster): 273.37 s ---
+
+
+	50 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 10.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (10.0 members): 80.39 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (10.0 members): 87.94 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.191			Compactness: 0.02527	 Diff: 0.791
+		Flex.:		Med Perf: 0.172			Compactness: 0.00356	 Diff: 0.404
+
+		Inc (all):	Med Perf: 9.72 %		Compactness: 85.92 %	 Diff: 48.949 %
+
+			--- Executing this cluster splitting: (10.0 members per cluster): 168.35 s ---
+
+
+	100 CLUSTERS		Cluster Splitting No. 7		Average No. of BES per Cluster: 5.00		(Day/Horizon: 130)
+
+			--- Avg. time choosing schedules for each cluster (SERIAL random clustering): (5.0 members): 37.79 s ---
+			--- Avg. time choosing schedules for each cluster (SERIAL flex. clustering): (5.0 members): 38.50 s ---
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.434			Compactness: 0.05559	 Diff: 1.057
+		Flex.:		Med Perf: 0.388			Compactness: 0.02057	 Diff: 0.689
+
+		Inc (all):	Med Perf: 10.69 %		Compactness: 62.99 %	 Diff: 34.746 %
+
+			--- Executing this cluster splitting: (5.0 members per cluster): 76.30 s ---
+
+		--- Executing this day (day 130): 4353.30 s

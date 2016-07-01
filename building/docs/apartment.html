@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>apartment.py</title>
+  <link rel="stylesheet" href="pycco.css">
+</head>
+<body>
+<div id="background"></div>
+<div id='container'>
+  <div class='section'>
+    <div class='docs'><h1>apartment.py</h1></div>
+  </div>
+  <div class='clearall'>
+  <div class='section' id='section-0'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-0'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="n">__author__</span> <span class="o">=</span> <span class="s">&#39;Christoph Molitor&#39;</span>
+
+<span class="kn">import</span> <span class="nn">xlrd</span>
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">electricalload</span> <span class="kn">import</span> <span class="n">ElectricalLoad</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-1'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-1'>#</a>
+      </div>
+      <p>The class apartment represents an apartment within a building. A building has at least one apartment but can have also a larger number of apartmenets.</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">Apartment</span><span class="p">(</span><span class="n">ElectricalLoad</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-2'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-2'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="n">bThermalData</span> <span class="o">=</span> <span class="bp">False</span>  <span class="c"># boolean which is set true after the data which is unique for all instances is loaded</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-3'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-3'>#</a>
+      </div>
+      <p>SLP_electrical = 0  # in Wh</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="n">SLP_thermal_SFH</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c"># thermal standard load profile for single family house standardized to 1000kWh/a in Wh</span>
+    <span class="n">SLP_thermal_MFH</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c"># thermal standard load profile for multi family house standardized to 1000kWh/a in Wh</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-4'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-4'>#</a>
+      </div>
+      <p>Constructor of apartment
+:param buildingType: 1=Single family house (SFH); else=Multi-family house (MFH)
+:param sqm: square meter of the apartment
+:param specDemandTh: specific thermal demand per sqm</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">buildingType</span><span class="p">,</span> <span class="n">sqm</span><span class="p">,</span> <span class="n">specDemandTh</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-5'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-5'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="bp">self</span><span class="o">.</span><span class="n">buildingType</span> <span class="o">=</span> <span class="n">buildingType</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sqm</span> <span class="o">=</span> <span class="n">sqm</span>  <span class="c"># in sqm</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">specDemandTh</span> <span class="o">=</span> <span class="n">specDemandTh</span>  <span class="c"># in kWh/(sqm a)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-6'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-6'>#</a>
+      </div>
+      <p>Calcualtion of annual electrical enegy consumption according to
+[1]B. Schlomann, E. Gruber, W. Eichhammer, N. Kling, J. Diekmann, H.-J. Ziesing, H. Rieke, F. Wittke,
+T. Herzog, M. Barbosa, S. Lutz, U. Broeske, D. Merten, D. Falkenberg, M. Nill, M. Kaltschmitt, B. Geiger,
+H. Kleeberger, und R. Eckl,
+Energieverbrauch der privaten Haushalte und des Sektors Gewerbe, Handel, Dienstleistungen (GHD),
+Fraunhofer ISI, Apr. 2004.
+data for former west Germany; average value 31.7 kWh/sqm/a</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="nb">super</span><span class="p">(</span><span class="n">Apartment</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="mf">31.7</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">sqm</span><span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-7'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-7'>#</a>
+      </div>
+      <p>Read profiles which are valid for all houses only once</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="k">if</span> <span class="n">Apartment</span><span class="o">.</span><span class="n">bThermalData</span> <span class="o">==</span> <span class="bp">False</span><span class="p">:</span>
+            <span class="n">Apartment</span><span class="o">.</span><span class="n">bThermalData</span> <span class="o">=</span> <span class="bp">True</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-8'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-8'>#</a>
+      </div>
+      <p>Read thermal demand profiles for SFH</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>            <span class="n">workbook</span> <span class="o">=</span> <span class="n">xlrd</span><span class="o">.</span><span class="n">open_workbook</span><span class="p">(</span><span class="s">&#39;./../data/rsl_1h/SLP_thermal_SFH.xlsx&#39;</span><span class="p">)</span>
+            <span class="n">worksheet</span> <span class="o">=</span> <span class="n">workbook</span><span class="o">.</span><span class="n">sheet_by_name</span><span class="p">(</span><span class="s">&#39;Tabelle1&#39;</span><span class="p">)</span>
+            <span class="n">Apartment</span><span class="o">.</span><span class="n">SLP_thermal_SFH</span> <span class="o">=</span> <span class="n">array</span><span class="p">([[</span><span class="n">x</span><span class="o">.</span><span class="n">value</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">worksheet</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)],</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">value</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">worksheet</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)]])</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-9'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-9'>#</a>
+      </div>
+      <p>print(Apartment.SLP_thermal_SFH)</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-10'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-10'>#</a>
+      </div>
+      <p>Read thermal demand profiles for MFH</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>            <span class="n">workbook</span> <span class="o">=</span> <span class="n">xlrd</span><span class="o">.</span><span class="n">open_workbook</span><span class="p">(</span><span class="s">&#39;./../data/rsl_1h/SLP_thermal_MFH.xlsx&#39;</span><span class="p">)</span>
+            <span class="n">worksheet</span> <span class="o">=</span> <span class="n">workbook</span><span class="o">.</span><span class="n">sheet_by_name</span><span class="p">(</span><span class="s">&#39;Tabelle1&#39;</span><span class="p">)</span>
+            <span class="n">Apartment</span><span class="o">.</span><span class="n">SLP_thermal_MFH</span> <span class="o">=</span> <span class="n">array</span><span class="p">([[</span><span class="n">x</span><span class="o">.</span><span class="n">value</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">worksheet</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)],</span> <span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">value</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">worksheet</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)]])</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-11'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-11'>#</a>
+      </div>
+      <p>print(Apartment.SLP_thermal_MFH)</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="bp">self</span><span class="o">.</span><span class="n">demandthermal_annual</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sqm</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">specDemandTh</span>  <span class="c"># in kWh</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">scalingSLPth</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">demandthermal_annual</span><span class="o">/</span><span class="mi">1000</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-12'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-12'>#</a>
+      </div>
+      <p>returns annual thermal demand of the apartment</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">getAnnualThermalDemand</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-13'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-13'>#</a>
+      </div>
+      <p>Method returns the aggregated annual thermal demand of the apartment
+:return: aggregated annual thermal demand</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">demandthermal_annual</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-14'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-14'>#</a>
+      </div>
+      <p>returns time series of electrical demand for this apartment</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">getThermalDemandCurve</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">fromTime</span><span class="p">,</span> <span class="n">toTime</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">buildingType</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">SLP_thermal</span> <span class="o">=</span> <span class="n">Apartment</span><span class="o">.</span><span class="n">SLP_thermal_SFH</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">SLP_thermal</span> <span class="o">=</span> <span class="n">Apartment</span><span class="o">.</span><span class="n">SLP_thermal_MFH</span>
+
+        <span class="n">indFrom</span> <span class="o">=</span> <span class="nb">min</span><span class="p">((</span><span class="n">asarray</span><span class="p">(</span><span class="n">where</span><span class="p">(</span><span class="n">SLP_thermal</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:]</span> <span class="o">&gt;=</span> <span class="n">fromTime</span><span class="p">)))[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:])</span>
+        <span class="n">indTo</span> <span class="o">=</span> <span class="nb">max</span><span class="p">((</span><span class="n">asarray</span><span class="p">(</span><span class="n">where</span><span class="p">(</span><span class="n">SLP_thermal</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:]</span> <span class="o">&lt;=</span> <span class="n">toTime</span><span class="p">)))[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:])</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">ret</span> <span class="o">=</span> <span class="n">zeros</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="n">indTo</span><span class="o">-</span><span class="n">indFrom</span><span class="p">))</span>
+        <span class="n">ret</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">SLP_thermal</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">indFrom</span><span class="p">:</span><span class="n">indTo</span><span class="p">]</span>
+        <span class="n">ret</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">SLP_thermal</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="n">indFrom</span><span class="p">:</span><span class="n">indTo</span><span class="p">]</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">scalingSLPth</span>  <span class="c"># scale SLP to actual consumption</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-15'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-15'>#</a>
+      </div>
+      <p>print("SLPsclaing:", self.scalingSLPth)</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="k">return</span> <span class="n">ret</span>
+
+</pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+</div>
+</body>

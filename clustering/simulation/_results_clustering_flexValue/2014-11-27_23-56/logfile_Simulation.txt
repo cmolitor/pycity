@@ -1,0 +1,721 @@
+Simulation data:
+
+No. of Bes: 300
+Step Size: 3600
+Starting Horizon: 130
+No. of Horizons: 7
+Criterion: energy
+Solution Pool Gap: 2
+Random-seed: 17
+Cluster Splitting: [10, 12, 15, 20, 30, 40, 60]
+Share of Renewables: 20
+Solution Pool Intensity: 4
+
+
+
+
+Day/Horizon: 130
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 30.00		(Day/Horizon: 130)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.070			Compactness: 0.00128	 Diff: 0.123
+		Power:		Med Perf: 0.054			Compactness: 0.00012	 Diff: 0.033
+		Flex.:		Med Perf: 0.056			Compactness: 0.00009	 Diff: 0.028
+
+		Inc (R-P):	Med Perf: 23.18 %		Compactness: 90.47 %	 Diff: 72.956 %
+		Inc (P-F):	Med Perf: -3.87 %		Compactness: 27.61 %	 Diff: 15.338 %
+
+		Inc (all):	Med Perf: 20.21 %		Compactness: 93.10 %	 Diff: 77.104 %
+
+
+	12 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 25.00		(Day/Horizon: 130)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.064			Compactness: 0.00486	 Diff: 0.240
+		Power:		Med Perf: 0.068			Compactness: 0.00061	 Diff: 0.080
+		Flex.:		Med Perf: 0.068			Compactness: 0.00034	 Diff: 0.070
+
+		Inc (R-P):	Med Perf: -6.19 %		Compactness: 87.42 %	 Diff: 66.463 %
+		Inc (P-F):	Med Perf: 0.57 %		Compactness: 44.68 %	 Diff: 13.135 %
+
+		Inc (all):	Med Perf: -5.59 %		Compactness: 93.04 %	 Diff: 70.868 %
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 20.00		(Day/Horizon: 130)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.104			Compactness: 0.00093	 Diff: 0.105
+		Power:		Med Perf: 0.089			Compactness: 0.00077	 Diff: 0.111
+		Flex.:		Med Perf: 0.084			Compactness: 0.00085	 Diff: 0.105
+
+		Inc (R-P):	Med Perf: 14.47 %		Compactness: 16.74 %	 Diff: -5.759 %
+		Inc (P-F):	Med Perf: 5.67 %		Compactness: -9.63 %	 Diff: 5.150 %
+
+		Inc (all):	Med Perf: 19.31 %		Compactness: 8.72 %	 Diff: -0.312 %
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 15.00		(Day/Horizon: 130)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.135			Compactness: 0.00798	 Diff: 0.396
+		Power:		Med Perf: 0.103			Compactness: 0.00227	 Diff: 0.207
+		Flex.:		Med Perf: 0.113			Compactness: 0.00134	 Diff: 0.127
+
+		Inc (R-P):	Med Perf: 23.72 %		Compactness: 71.59 %	 Diff: 47.668 %
+		Inc (P-F):	Med Perf: -9.02 %		Compactness: 40.79 %	 Diff: 38.839 %
+
+		Inc (all):	Med Perf: 16.84 %		Compactness: 83.18 %	 Diff: 67.993 %
+
+
+	30 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 10.00		(Day/Horizon: 130)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.231			Compactness: 0.01003	 Diff: 0.351
+		Power:		Med Perf: 0.152			Compactness: 0.00712	 Diff: 0.301
+		Flex.:		Med Perf: 0.170			Compactness: 0.00244	 Diff: 0.251
+
+		Inc (R-P):	Med Perf: 34.03 %		Compactness: 29.02 %	 Diff: 14.360 %
+		Inc (P-F):	Med Perf: -11.33 %		Compactness: 65.69 %	 Diff: 16.354 %
+
+		Inc (all):	Med Perf: 26.56 %		Compactness: 75.65 %	 Diff: 28.366 %
+
+
+	40 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 7.50		(Day/Horizon: 130)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.306			Compactness: 0.02122	 Diff: 0.689
+		Power:		Med Perf: 0.224			Compactness: 0.01111	 Diff: 0.617
+		Flex.:		Med Perf: 0.226			Compactness: 0.00453	 Diff: 0.299
+
+		Inc (R-P):	Med Perf: 26.77 %		Compactness: 47.66 %	 Diff: 10.401 %
+		Inc (P-F):	Med Perf: -1.14 %		Compactness: 59.17 %	 Diff: 51.602 %
+
+		Inc (all):	Med Perf: 25.94 %		Compactness: 78.63 %	 Diff: 56.635 %
+
+
+	60 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 5.00		(Day/Horizon: 130)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.456			Compactness: 0.06422	 Diff: 1.229
+		Power:		Med Perf: 0.371			Compactness: 0.01532	 Diff: 0.539
+		Flex.:		Med Perf: 0.362			Compactness: 0.01262	 Diff: 0.528
+
+		Inc (R-P):	Med Perf: 18.71 %		Compactness: 76.14 %	 Diff: 56.172 %
+		Inc (P-F):	Med Perf: 2.24 %		Compactness: 17.64 %	 Diff: 2.007 %
+
+		Inc (all):	Med Perf: 20.53 %		Compactness: 80.35 %	 Diff: 57.051 %
+
+
+Day/Horizon: 131
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 30.00		(Day/Horizon: 131)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.051			Compactness: 0.00005	 Diff: 0.022
+		Power:		Med Perf: 0.049			Compactness: 0.00004	 Diff: 0.023
+		Flex.:		Med Perf: 0.048			Compactness: 0.00005	 Diff: 0.024
+
+		Inc (R-P):	Med Perf: 4.12 %		Compactness: 10.90 %	 Diff: -5.400 %
+		Inc (P-F):	Med Perf: 1.04 %		Compactness: -20.36 %	 Diff: -3.815 %
+
+		Inc (all):	Med Perf: 5.11 %		Compactness: -7.24 %	 Diff: -9.421 %
+
+
+	12 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 25.00		(Day/Horizon: 131)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.056			Compactness: 0.00023	 Diff: 0.057
+		Power:		Med Perf: 0.053			Compactness: 0.00019	 Diff: 0.047
+		Flex.:		Med Perf: 0.056			Compactness: 0.00011	 Diff: 0.039
+
+		Inc (R-P):	Med Perf: 5.03 %		Compactness: 16.86 %	 Diff: 17.935 %
+		Inc (P-F):	Med Perf: -4.79 %		Compactness: 41.75 %	 Diff: 16.621 %
+
+		Inc (all):	Med Perf: 0.48 %		Compactness: 51.57 %	 Diff: 31.575 %
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 20.00		(Day/Horizon: 131)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.077			Compactness: 0.00026	 Diff: 0.057
+		Power:		Med Perf: 0.074			Compactness: 0.00098	 Diff: 0.136
+		Flex.:		Med Perf: 0.072			Compactness: 0.00009	 Diff: 0.038
+
+		Inc (R-P):	Med Perf: 4.22 %		Compactness: -273.52 %	 Diff: -140.432 %
+		Inc (P-F):	Med Perf: 2.59 %		Compactness: 91.23 %	 Diff: 72.321 %
+
+		Inc (all):	Med Perf: 6.70 %		Compactness: 67.23 %	 Diff: 33.450 %
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 15.00		(Day/Horizon: 131)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.103			Compactness: 0.00044	 Diff: 0.080
+		Power:		Med Perf: 0.098			Compactness: 0.00144	 Diff: 0.191
+		Flex.:		Med Perf: 0.103			Compactness: 0.00081	 Diff: 0.122
+
+		Inc (R-P):	Med Perf: 4.98 %		Compactness: -227.20 %	 Diff: -139.099 %
+		Inc (P-F):	Med Perf: -5.23 %		Compactness: 43.57 %	 Diff: 36.423 %
+
+		Inc (all):	Med Perf: 0.01 %		Compactness: -84.62 %	 Diff: -52.012 %
+
+
+	30 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 10.00		(Day/Horizon: 131)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.166			Compactness: 0.00321	 Diff: 0.268
+		Power:		Med Perf: 0.148			Compactness: 0.00456	 Diff: 0.322
+		Flex.:		Med Perf: 0.155			Compactness: 0.00258	 Diff: 0.233
+
+		Inc (R-P):	Med Perf: 10.76 %		Compactness: -42.04 %	 Diff: -20.171 %
+		Inc (P-F):	Med Perf: -5.13 %		Compactness: 43.49 %	 Diff: 27.672 %
+
+		Inc (all):	Med Perf: 6.19 %		Compactness: 19.73 %	 Diff: 13.083 %
+
+
+	40 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 7.50		(Day/Horizon: 131)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.212			Compactness: 0.01295	 Diff: 0.412
+		Power:		Med Perf: 0.208			Compactness: 0.00495	 Diff: 0.334
+		Flex.:		Med Perf: 0.206			Compactness: 0.00458	 Diff: 0.271
+
+		Inc (R-P):	Med Perf: 2.23 %		Compactness: 61.75 %	 Diff: 18.810 %
+		Inc (P-F):	Med Perf: 0.77 %		Compactness: 7.53 %	 Diff: 18.973 %
+
+		Inc (all):	Med Perf: 2.99 %		Compactness: 64.63 %	 Diff: 34.213 %
+
+
+	60 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 5.00		(Day/Horizon: 131)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.362			Compactness: 0.02550	 Diff: 0.641
+		Power:		Med Perf: 0.313			Compactness: 0.01514	 Diff: 0.573
+		Flex.:		Med Perf: 0.316			Compactness: 0.01239	 Diff: 0.573
+
+		Inc (R-P):	Med Perf: 13.54 %		Compactness: 40.62 %	 Diff: 10.483 %
+		Inc (P-F):	Med Perf: -1.01 %		Compactness: 18.18 %	 Diff: 0.000 %
+
+		Inc (all):	Med Perf: 12.66 %		Compactness: 51.42 %	 Diff: 10.483 %
+
+
+Day/Horizon: 132
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 30.00		(Day/Horizon: 132)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.067			Compactness: 0.00175	 Diff: 0.148
+		Power:		Med Perf: 0.043			Compactness: 0.00101	 Diff: 0.109
+		Flex.:		Med Perf: 0.055			Compactness: 0.00035	 Diff: 0.054
+
+		Inc (R-P):	Med Perf: 35.77 %		Compactness: 42.49 %	 Diff: 26.331 %
+		Inc (P-F):	Med Perf: -29.27 %		Compactness: 65.19 %	 Diff: 50.729 %
+
+		Inc (all):	Med Perf: 16.97 %		Compactness: 79.98 %	 Diff: 63.702 %
+
+
+	12 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 25.00		(Day/Horizon: 132)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.086			Compactness: 0.00264	 Diff: 0.135
+		Power:		Med Perf: 0.062			Compactness: 0.00178	 Diff: 0.151
+		Flex.:		Med Perf: 0.056			Compactness: 0.00073	 Diff: 0.105
+
+		Inc (R-P):	Med Perf: 27.39 %		Compactness: 32.63 %	 Diff: -12.292 %
+		Inc (P-F):	Med Perf: 9.28 %		Compactness: 58.82 %	 Diff: 30.861 %
+
+		Inc (all):	Med Perf: 34.12 %		Compactness: 72.26 %	 Diff: 22.362 %
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 20.00		(Day/Horizon: 132)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.075			Compactness: 0.00408	 Diff: 0.205
+		Power:		Med Perf: 0.062			Compactness: 0.00495	 Diff: 0.200
+		Flex.:		Med Perf: 0.067			Compactness: 0.00168	 Diff: 0.116
+
+		Inc (R-P):	Med Perf: 17.60 %		Compactness: -21.45 %	 Diff: 2.429 %
+		Inc (P-F):	Med Perf: -8.56 %		Compactness: 66.06 %	 Diff: 41.973 %
+
+		Inc (all):	Med Perf: 10.54 %		Compactness: 58.78 %	 Diff: 43.382 %
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 15.00		(Day/Horizon: 132)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.107			Compactness: 0.00767	 Diff: 0.258
+		Power:		Med Perf: 0.098			Compactness: 0.00881	 Diff: 0.368
+		Flex.:		Med Perf: 0.097			Compactness: 0.00478	 Diff: 0.234
+
+		Inc (R-P):	Med Perf: 8.06 %		Compactness: -14.84 %	 Diff: -43.071 %
+		Inc (P-F):	Med Perf: 0.91 %		Compactness: 45.71 %	 Diff: 36.567 %
+
+		Inc (all):	Med Perf: 8.90 %		Compactness: 37.66 %	 Diff: 9.247 %
+
+
+	30 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 10.00		(Day/Horizon: 132)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.206			Compactness: 0.00766	 Diff: 0.350
+		Power:		Med Perf: 0.169			Compactness: 0.01009	 Diff: 0.450
+		Flex.:		Med Perf: 0.165			Compactness: 0.01132	 Diff: 0.472
+
+		Inc (R-P):	Med Perf: 18.02 %		Compactness: -31.69 %	 Diff: -28.683 %
+		Inc (P-F):	Med Perf: 2.07 %		Compactness: -12.27 %	 Diff: -4.823 %
+
+		Inc (all):	Med Perf: 19.71 %		Compactness: -47.85 %	 Diff: -34.889 %
+
+
+	40 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 7.50		(Day/Horizon: 132)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.238			Compactness: 0.02138	 Diff: 0.519
+		Power:		Med Perf: 0.206			Compactness: 0.01067	 Diff: 0.468
+		Flex.:		Med Perf: 0.220			Compactness: 0.00826	 Diff: 0.395
+
+		Inc (R-P):	Med Perf: 13.55 %		Compactness: 50.10 %	 Diff: 9.896 %
+		Inc (P-F):	Med Perf: -6.84 %		Compactness: 22.62 %	 Diff: 15.632 %
+
+		Inc (all):	Med Perf: 7.64 %		Compactness: 61.39 %	 Diff: 23.982 %
+
+
+	60 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 5.00		(Day/Horizon: 132)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.351			Compactness: 0.03502	 Diff: 0.708
+		Power:		Med Perf: 0.307			Compactness: 0.01779	 Diff: 0.689
+		Flex.:		Med Perf: 0.307			Compactness: 0.01676	 Diff: 0.680
+
+		Inc (R-P):	Med Perf: 12.51 %		Compactness: 49.19 %	 Diff: 2.776 %
+		Inc (P-F):	Med Perf: 0.00 %		Compactness: 5.83 %	 Diff: 1.214 %
+
+		Inc (all):	Med Perf: 12.51 %		Compactness: 52.15 %	 Diff: 3.956 %
+
+
+Day/Horizon: 133
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 30.00		(Day/Horizon: 133)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.060			Compactness: 0.00019	 Diff: 0.054
+		Power:		Med Perf: 0.060			Compactness: 0.00019	 Diff: 0.046
+		Flex.:		Med Perf: 0.056			Compactness: 0.00024	 Diff: 0.047
+
+		Inc (R-P):	Med Perf: 0.30 %		Compactness: 0.18 %	 Diff: 13.479 %
+		Inc (P-F):	Med Perf: 6.33 %		Compactness: -24.23 %	 Diff: -0.472 %
+
+		Inc (all):	Med Perf: 6.61 %		Compactness: -24.00 %	 Diff: 13.070 %
+
+
+	12 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 25.00		(Day/Horizon: 133)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.065			Compactness: 0.00038	 Diff: 0.066
+		Power:		Med Perf: 0.066			Compactness: 0.00024	 Diff: 0.061
+		Flex.:		Med Perf: 0.060			Compactness: 0.00043	 Diff: 0.059
+
+		Inc (R-P):	Med Perf: -2.08 %		Compactness: 36.14 %	 Diff: 7.342 %
+		Inc (P-F):	Med Perf: 9.60 %		Compactness: -75.21 %	 Diff: 3.949 %
+
+		Inc (all):	Med Perf: 7.72 %		Compactness: -11.90 %	 Diff: 11.001 %
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 20.00		(Day/Horizon: 133)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.085			Compactness: 0.00070	 Diff: 0.087
+		Power:		Med Perf: 0.078			Compactness: 0.00070	 Diff: 0.077
+		Flex.:		Med Perf: 0.078			Compactness: 0.00096	 Diff: 0.112
+
+		Inc (R-P):	Med Perf: 8.69 %		Compactness: -0.23 %	 Diff: 12.190 %
+		Inc (P-F):	Med Perf: -0.11 %		Compactness: -36.99 %	 Diff: -46.325 %
+
+		Inc (all):	Med Perf: 8.58 %		Compactness: -37.30 %	 Diff: -28.488 %
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 15.00		(Day/Horizon: 133)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.123			Compactness: 0.00747	 Diff: 0.377
+		Power:		Med Perf: 0.102			Compactness: 0.00341	 Diff: 0.247
+		Flex.:		Med Perf: 0.108			Compactness: 0.00137	 Diff: 0.160
+
+		Inc (R-P):	Med Perf: 17.09 %		Compactness: 54.40 %	 Diff: 34.603 %
+		Inc (P-F):	Med Perf: -5.94 %		Compactness: 59.79 %	 Diff: 35.209 %
+
+		Inc (all):	Med Perf: 12.16 %		Compactness: 81.67 %	 Diff: 57.629 %
+
+
+	30 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 10.00		(Day/Horizon: 133)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.188			Compactness: 0.01097	 Diff: 0.550
+		Power:		Med Perf: 0.156			Compactness: 0.01322	 Diff: 0.418
+		Flex.:		Med Perf: 0.167			Compactness: 0.00403	 Diff: 0.263
+
+		Inc (R-P):	Med Perf: 16.76 %		Compactness: -20.43 %	 Diff: 24.112 %
+		Inc (P-F):	Med Perf: -6.64 %		Compactness: 69.48 %	 Diff: 36.988 %
+
+		Inc (all):	Med Perf: 11.24 %		Compactness: 63.24 %	 Diff: 52.181 %
+
+
+	40 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 7.50		(Day/Horizon: 133)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.271			Compactness: 0.03231	 Diff: 0.899
+		Power:		Med Perf: 0.205			Compactness: 0.01162	 Diff: 0.498
+		Flex.:		Med Perf: 0.217			Compactness: 0.01064	 Diff: 0.432
+
+		Inc (R-P):	Med Perf: 24.47 %		Compactness: 64.05 %	 Diff: 44.589 %
+		Inc (P-F):	Med Perf: -5.66 %		Compactness: 8.40 %	 Diff: 13.201 %
+
+		Inc (all):	Med Perf: 20.20 %		Compactness: 67.07 %	 Diff: 51.904 %
+
+
+	60 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 5.00		(Day/Horizon: 133)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.389			Compactness: 0.05705	 Diff: 1.167
+		Power:		Med Perf: 0.348			Compactness: 0.02629	 Diff: 0.926
+		Flex.:		Med Perf: 0.348			Compactness: 0.02800	 Diff: 0.926
+
+		Inc (R-P):	Med Perf: 10.69 %		Compactness: 53.93 %	 Diff: 20.628 %
+		Inc (P-F):	Med Perf: 0.00 %		Compactness: -6.53 %	 Diff: 0.000 %
+
+		Inc (all):	Med Perf: 10.69 %		Compactness: 50.92 %	 Diff: 20.628 %
+
+
+Day/Horizon: 134
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 30.00		(Day/Horizon: 134)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.052			Compactness: 0.00075	 Diff: 0.071
+		Power:		Med Perf: 0.048			Compactness: 0.00012	 Diff: 0.031
+		Flex.:		Med Perf: 0.053			Compactness: 0.00009	 Diff: 0.029
+
+		Inc (R-P):	Med Perf: 7.55 %		Compactness: 83.43 %	 Diff: 56.621 %
+		Inc (P-F):	Med Perf: -11.94 %		Compactness: 25.48 %	 Diff: 5.813 %
+
+		Inc (all):	Med Perf: -3.49 %		Compactness: 87.65 %	 Diff: 59.143 %
+
+
+	12 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 25.00		(Day/Horizon: 134)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.061			Compactness: 0.00025	 Diff: 0.056
+		Power:		Med Perf: 0.059			Compactness: 0.00022	 Diff: 0.047
+		Flex.:		Med Perf: 0.061			Compactness: 0.00015	 Diff: 0.055
+
+		Inc (R-P):	Med Perf: 3.25 %		Compactness: 15.56 %	 Diff: 16.035 %
+		Inc (P-F):	Med Perf: -2.77 %		Compactness: 29.73 %	 Diff: -16.328 %
+
+		Inc (all):	Med Perf: 0.57 %		Compactness: 40.67 %	 Diff: 2.325 %
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 20.00		(Day/Horizon: 134)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.085			Compactness: 0.00093	 Diff: 0.106
+		Power:		Med Perf: 0.082			Compactness: 0.00016	 Diff: 0.048
+		Flex.:		Med Perf: 0.063			Compactness: 0.00045	 Diff: 0.058
+
+		Inc (R-P):	Med Perf: 3.08 %		Compactness: 82.94 %	 Diff: 54.611 %
+		Inc (P-F):	Med Perf: 22.98 %		Compactness: -184.12 %	 Diff: -21.720 %
+
+		Inc (all):	Med Perf: 25.36 %		Compactness: 51.54 %	 Diff: 44.753 %
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 15.00		(Day/Horizon: 134)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.133			Compactness: 0.00239	 Diff: 0.180
+		Power:		Med Perf: 0.105			Compactness: 0.00125	 Diff: 0.176
+		Flex.:		Med Perf: 0.095			Compactness: 0.00087	 Diff: 0.120
+
+		Inc (R-P):	Med Perf: 21.14 %		Compactness: 47.53 %	 Diff: 1.906 %
+		Inc (P-F):	Med Perf: 9.98 %		Compactness: 30.39 %	 Diff: 31.931 %
+
+		Inc (all):	Med Perf: 29.01 %		Compactness: 63.47 %	 Diff: 33.228 %
+
+
+	30 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 10.00		(Day/Horizon: 134)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.165			Compactness: 0.00733	 Diff: 0.294
+		Power:		Med Perf: 0.148			Compactness: 0.00339	 Diff: 0.291
+		Flex.:		Med Perf: 0.149			Compactness: 0.00307	 Diff: 0.176
+
+		Inc (R-P):	Med Perf: 10.04 %		Compactness: 53.82 %	 Diff: 1.046 %
+		Inc (P-F):	Med Perf: -0.53 %		Compactness: 9.36 %	 Diff: 39.543 %
+
+		Inc (all):	Med Perf: 9.56 %		Compactness: 58.14 %	 Diff: 40.175 %
+
+
+	40 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 7.50		(Day/Horizon: 134)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.256			Compactness: 0.02488	 Diff: 0.702
+		Power:		Med Perf: 0.211			Compactness: 0.00631	 Diff: 0.363
+		Flex.:		Med Perf: 0.226			Compactness: 0.00750	 Diff: 0.339
+
+		Inc (R-P):	Med Perf: 17.43 %		Compactness: 74.64 %	 Diff: 48.247 %
+		Inc (P-F):	Med Perf: -6.82 %		Compactness: -18.84 %	 Diff: 6.581 %
+
+		Inc (all):	Med Perf: 11.79 %		Compactness: 69.86 %	 Diff: 51.653 %
+
+
+	60 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 5.00		(Day/Horizon: 134)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.373			Compactness: 0.05762	 Diff: 1.160
+		Power:		Med Perf: 0.300			Compactness: 0.01802	 Diff: 0.613
+		Flex.:		Med Perf: 0.303			Compactness: 0.01695	 Diff: 0.613
+
+		Inc (R-P):	Med Perf: 19.73 %		Compactness: 68.72 %	 Diff: 47.159 %
+		Inc (P-F):	Med Perf: -1.25 %		Compactness: 5.95 %	 Diff: 0.000 %
+
+		Inc (all):	Med Perf: 18.73 %		Compactness: 70.58 %	 Diff: 47.159 %
+
+
+Day/Horizon: 135
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 30.00		(Day/Horizon: 135)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.160			Compactness: 0.00392	 Diff: 0.232
+		Power:		Med Perf: 0.162			Compactness: 0.00100	 Diff: 0.093
+		Flex.:		Med Perf: 0.154			Compactness: 0.00134	 Diff: 0.113
+
+		Inc (R-P):	Med Perf: -1.23 %		Compactness: 74.55 %	 Diff: 59.832 %
+		Inc (P-F):	Med Perf: 4.77 %		Compactness: -34.23 %	 Diff: -21.221 %
+
+		Inc (all):	Med Perf: 3.59 %		Compactness: 65.84 %	 Diff: 51.308 %
+
+
+	12 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 25.00		(Day/Horizon: 135)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.154			Compactness: 0.00140	 Diff: 0.134
+		Power:		Med Perf: 0.148			Compactness: 0.00164	 Diff: 0.133
+		Flex.:		Med Perf: 0.145			Compactness: 0.00198	 Diff: 0.175
+
+		Inc (R-P):	Med Perf: 4.44 %		Compactness: -17.02 %	 Diff: 0.240 %
+		Inc (P-F):	Med Perf: 1.74 %		Compactness: -20.95 %	 Diff: -31.213 %
+
+		Inc (all):	Med Perf: 6.10 %		Compactness: -41.54 %	 Diff: -30.898 %
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 20.00		(Day/Horizon: 135)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.174			Compactness: 0.00385	 Diff: 0.228
+		Power:		Med Perf: 0.170			Compactness: 0.00240	 Diff: 0.202
+		Flex.:		Med Perf: 0.176			Compactness: 0.00128	 Diff: 0.153
+
+		Inc (R-P):	Med Perf: 2.58 %		Compactness: 37.61 %	 Diff: 11.562 %
+		Inc (P-F):	Med Perf: -3.38 %		Compactness: 46.79 %	 Diff: 23.935 %
+
+		Inc (all):	Med Perf: -0.71 %		Compactness: 66.80 %	 Diff: 32.730 %
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 15.00		(Day/Horizon: 135)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.207			Compactness: 0.01536	 Diff: 0.553
+		Power:		Med Perf: 0.181			Compactness: 0.01055	 Diff: 0.429
+		Flex.:		Med Perf: 0.183			Compactness: 0.00529	 Diff: 0.274
+
+		Inc (R-P):	Med Perf: 12.73 %		Compactness: 31.32 %	 Diff: 22.462 %
+		Inc (P-F):	Med Perf: -1.43 %		Compactness: 49.83 %	 Diff: 36.062 %
+
+		Inc (all):	Med Perf: 11.48 %		Compactness: 65.55 %	 Diff: 50.424 %
+
+
+	30 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 10.00		(Day/Horizon: 135)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.276			Compactness: 0.01880	 Diff: 0.551
+		Power:		Med Perf: 0.247			Compactness: 0.01012	 Diff: 0.446
+		Flex.:		Med Perf: 0.247			Compactness: 0.00981	 Diff: 0.394
+
+		Inc (R-P):	Med Perf: 10.36 %		Compactness: 46.16 %	 Diff: 19.027 %
+		Inc (P-F):	Med Perf: 0.19 %		Compactness: 3.10 %	 Diff: 11.675 %
+
+		Inc (all):	Med Perf: 10.53 %		Compactness: 47.83 %	 Diff: 28.480 %
+
+
+	40 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 7.50		(Day/Horizon: 135)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.306			Compactness: 0.03468	 Diff: 0.935
+		Power:		Med Perf: 0.282			Compactness: 0.02731	 Diff: 0.714
+		Flex.:		Med Perf: 0.282			Compactness: 0.02572	 Diff: 0.714
+
+		Inc (R-P):	Med Perf: 7.76 %		Compactness: 21.24 %	 Diff: 23.562 %
+		Inc (P-F):	Med Perf: 0.00 %		Compactness: 5.84 %	 Diff: 0.000 %
+
+		Inc (all):	Med Perf: 7.76 %		Compactness: 25.83 %	 Diff: 23.562 %
+
+
+	60 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 5.00		(Day/Horizon: 135)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.433			Compactness: 0.03408	 Diff: 0.966
+		Power:		Med Perf: 0.368			Compactness: 0.02342	 Diff: 0.617
+		Flex.:		Med Perf: 0.368			Compactness: 0.02205	 Diff: 0.606
+
+		Inc (R-P):	Med Perf: 15.08 %		Compactness: 31.27 %	 Diff: 36.203 %
+		Inc (P-F):	Med Perf: 0.00 %		Compactness: 5.84 %	 Diff: 1.694 %
+
+		Inc (all):	Med Perf: 15.08 %		Compactness: 35.28 %	 Diff: 37.284 %
+
+
+Day/Horizon: 136
+
+
+	10 CLUSTERS		Cluster Splitting No. 0		Average No. of BES per Cluster: 30.00		(Day/Horizon: 136)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.233			Compactness: 0.00852	 Diff: 0.278
+		Power:		Med Perf: 0.230			Compactness: 0.00728	 Diff: 0.308
+		Flex.:		Med Perf: 0.215			Compactness: 0.01619	 Diff: 0.448
+
+		Inc (R-P):	Med Perf: 1.03 %		Compactness: 14.58 %	 Diff: -10.899 %
+		Inc (P-F):	Med Perf: 6.85 %		Compactness: -122.36 %	 Diff: -45.411 %
+
+		Inc (all):	Med Perf: 7.81 %		Compactness: -89.95 %	 Diff: -61.261 %
+
+
+	12 CLUSTERS		Cluster Splitting No. 1		Average No. of BES per Cluster: 25.00		(Day/Horizon: 136)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.257			Compactness: 0.00400	 Diff: 0.202
+		Power:		Med Perf: 0.250			Compactness: 0.01486	 Diff: 0.433
+		Flex.:		Med Perf: 0.222			Compactness: 0.01049	 Diff: 0.290
+
+		Inc (R-P):	Med Perf: 2.54 %		Compactness: -271.33 %	 Diff: -114.107 %
+		Inc (P-F):	Med Perf: 11.39 %		Compactness: 29.42 %	 Diff: 33.192 %
+
+		Inc (all):	Med Perf: 13.64 %		Compactness: -162.11 %	 Diff: -43.040 %
+
+
+	15 CLUSTERS		Cluster Splitting No. 2		Average No. of BES per Cluster: 20.00		(Day/Horizon: 136)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.236			Compactness: 0.01833	 Diff: 0.453
+		Power:		Med Perf: 0.292			Compactness: 0.01262	 Diff: 0.380
+		Flex.:		Med Perf: 0.303			Compactness: 0.00904	 Diff: 0.300
+
+		Inc (R-P):	Med Perf: -23.75 %		Compactness: 31.14 %	 Diff: 16.184 %
+		Inc (P-F):	Med Perf: -3.53 %		Compactness: 28.39 %	 Diff: 21.170 %
+
+		Inc (all):	Med Perf: -28.13 %		Compactness: 50.69 %	 Diff: 33.927 %
+
+
+	20 CLUSTERS		Cluster Splitting No. 3		Average No. of BES per Cluster: 15.00		(Day/Horizon: 136)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.281			Compactness: 0.01765	 Diff: 0.440
+		Power:		Med Perf: 0.236			Compactness: 0.02112	 Diff: 0.449
+		Flex.:		Med Perf: 0.243			Compactness: 0.02169	 Diff: 0.499
+
+		Inc (R-P):	Med Perf: 15.86 %		Compactness: -19.65 %	 Diff: -2.158 %
+		Inc (P-F):	Med Perf: -3.00 %		Compactness: -2.70 %	 Diff: -11.010 %
+
+		Inc (all):	Med Perf: 13.33 %		Compactness: -22.89 %	 Diff: -13.406 %
+
+
+	30 CLUSTERS		Cluster Splitting No. 4		Average No. of BES per Cluster: 10.00		(Day/Horizon: 136)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.306			Compactness: 0.02435	 Diff: 0.603
+		Power:		Med Perf: 0.298			Compactness: 0.02145	 Diff: 0.605
+		Flex.:		Med Perf: 0.283			Compactness: 0.02298	 Diff: 0.492
+
+		Inc (R-P):	Med Perf: 2.35 %		Compactness: 11.93 %	 Diff: -0.342 %
+		Inc (P-F):	Med Perf: 5.08 %		Compactness: -7.17 %	 Diff: 18.778 %
+
+		Inc (all):	Med Perf: 7.31 %		Compactness: 5.61 %	 Diff: 18.500 %
+
+
+	40 CLUSTERS		Cluster Splitting No. 5		Average No. of BES per Cluster: 7.50		(Day/Horizon: 136)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.415			Compactness: 0.02915	 Diff: 0.771
+		Power:		Med Perf: 0.327			Compactness: 0.04543	 Diff: 0.855
+		Flex.:		Med Perf: 0.371			Compactness: 0.03268	 Diff: 0.705
+
+		Inc (R-P):	Med Perf: 21.08 %		Compactness: -55.83 %	 Diff: -10.780 %
+		Inc (P-F):	Med Perf: -13.35 %		Compactness: 28.06 %	 Diff: 17.495 %
+
+		Inc (all):	Med Perf: 10.55 %		Compactness: -12.10 %	 Diff: 8.601 %
+
+
+	60 CLUSTERS		Cluster Splitting No. 6		Average No. of BES per Cluster: 5.00		(Day/Horizon: 136)
+
+
+		PERFORMANCE OF BALANCING:
+		Random:		Med Perf: 0.452			Compactness: 0.04364	 Diff: 1.024
+		Power:		Med Perf: 0.457			Compactness: 0.04167	 Diff: 0.798
+		Flex.:		Med Perf: 0.457			Compactness: 0.04073	 Diff: 0.798
+
+		Inc (R-P):	Med Perf: -1.23 %		Compactness: 4.53 %	 Diff: 22.062 %
+		Inc (P-F):	Med Perf: 0.00 %		Compactness: 2.24 %	 Diff: 0.000 %
+
+		Inc (all):	Med Perf: -1.23 %		Compactness: 6.67 %	 Diff: 22.062 %
